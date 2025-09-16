@@ -13,7 +13,8 @@ namespace SpecialAssignment
 
         void Start()
         {
-            screenNameDisplay.text = $"You are on the\n<b>{screenName}</b>\nscreen";
+            if (screenNameDisplay != null)
+                screenNameDisplay.text = $"You are on the\n<b>{screenName}</b>\nscreen";
 
             if (screenName == NavigationManager.SPLASH || screenName == NavigationManager.MAINMENU)
             {
