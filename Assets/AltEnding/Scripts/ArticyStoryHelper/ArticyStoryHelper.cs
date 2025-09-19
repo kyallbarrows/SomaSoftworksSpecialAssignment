@@ -15,7 +15,7 @@ namespace AltEnding
         /// <summary>
         /// Assign a subclass to customize for your project using your specific Articy generated code
         /// </summary>
-        public static ArticyStoryHelper Instance = new BoilerplateStoryHelper();
+        public static ArticyStoryHelper Instance = new SpecialAssignmentStoryHelper();
         
         /// <summary>
         /// Get a string representation of a speaker's facial expression defined for the given flow object
