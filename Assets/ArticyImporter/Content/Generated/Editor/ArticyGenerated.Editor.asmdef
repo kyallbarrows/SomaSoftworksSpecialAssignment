@@ -1,0 +1,9 @@
+{
+  "name": "ArticyGenerated.Editor",
+  "references": [
+    "ArticyGenerated"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}
