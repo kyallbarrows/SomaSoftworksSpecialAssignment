@@ -30,5 +30,10 @@ namespace SpecialAssignment
         {
             NavigationManager.LoadScene(NavigationManager.EXTRAS);
         }
+        
+        public void OnToolsPressed()
+        {
+            NavigationManager.LoadScene(NavigationManager.VOICE_PRINT_TOOL);
+        }
     }
 }

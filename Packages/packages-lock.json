@@ -7,6 +7,13 @@
       "dependencies": {},
       "hash": "64285ae060c9fe2aeb2a73b076b160939ce3be1a"
     },
+    "com.gwiazdorrr.eventbetter": {
+      "version": "https://github.com/gwiazdorrr/EventBetter.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "381a052e0a97b9a772f70ace9cb23e83e58b7dac"
+    },
     "com.soupday.cc3_unity_tools": {
       "version": "https://github.com/soupday/cc_unity_tools_HDRP.git",
       "depth": 0,

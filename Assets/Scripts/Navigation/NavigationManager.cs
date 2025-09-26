@@ -17,6 +17,7 @@ namespace SpecialAssignment
         public const string GALLERY = "Gallery";
         public const string ARTICY_GALLERY = "ArticyGallery";
         public const string ARTICY_DEBUGGER = "ArticyDebugger";
+        public const string VOICE_PRINT_TOOL = "VoicePrintTool";
 
         public static string ArticyDoc = "";
 

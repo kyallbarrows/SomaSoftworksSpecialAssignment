@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.gwiazdorrr.eventbetter": "https://github.com/gwiazdorrr/EventBetter.git",
     "com.soupday.cc3_unity_tools": "https://github.com/soupday/cc_unity_tools_HDRP.git",
     "com.unity.addressables": "1.21.21",
     "com.unity.cinemachine": "2.10.4",
