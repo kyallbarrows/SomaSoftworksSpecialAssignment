@@ -7,6 +7,7 @@ namespace AltEnding
 {
     public class ArticyDataImporter
     {
+#if UNITY_EDITOR        
         [MenuItem("AltEnding Tools/Articy Data Import/Import All Data From Articy", priority = 10)]
         static public void ImportAllDataFromArticy()
         {
@@ -294,5 +295,6 @@ namespace AltEnding
 
             Debug.Log(message);
         }
+#endif
     }
 }

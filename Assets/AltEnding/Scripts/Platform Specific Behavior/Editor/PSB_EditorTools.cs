@@ -5,6 +5,7 @@ namespace AltEnding
 {
     public class PSB_EditorTools
     {
+#if UNITY_EDITOR
         [MenuItem("CONTEXT/TMP_Text/Add Multiplatform Size Changer")]
         public static void AddTMPFontSizeChanger(MenuCommand command)
         {
@@ -21,5 +22,6 @@ namespace AltEnding
             fontChanger = Undo.AddComponent<PSB_SetTMPFontSize>(text.gameObject);
             PrefabUtility.RecordPrefabInstancePropertyModifications(fontChanger);
         }
+#endif
     }
 }
