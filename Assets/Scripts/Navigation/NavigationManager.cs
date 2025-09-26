@@ -15,6 +15,10 @@ namespace SpecialAssignment
         public const string STORE = "Store";
         public const string EXTRAS = "Extras";
         public const string GALLERY = "Gallery";
+        public const string ARTICY_GALLERY = "ArticyGallery";
+        public const string ARTICY_DEBUGGER = "ArticyDebugger";
+
+        public static string ArticyDoc = "";
 
         #endregion
 

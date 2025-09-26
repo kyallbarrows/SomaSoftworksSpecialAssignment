@@ -227,6 +227,7 @@ MonoBehaviour:
   m_AtlasHeight: 512
   m_AtlasPadding: 9
   m_AtlasRenderMode: 4169
+
   m_UsedGlyphRects: []
   m_FreeGlyphRects:
   - m_X: 0

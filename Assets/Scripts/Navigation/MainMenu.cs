@@ -16,6 +16,11 @@ namespace SpecialAssignment
             NavigationManager.LoadScene(NavigationManager.GALLERY);
         }
         
+        public void OnArticyGalleryPressed()
+        {
+            NavigationManager.LoadScene(NavigationManager.ARTICY_GALLERY);
+        }
+        
         public void OnStorePressed()
         {
             NavigationManager.LoadScene(NavigationManager.STORE);

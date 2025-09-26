@@ -11,6 +11,7 @@ using NaughtyAttributes;
 #endif
 using System.IO;
 using AltEnding.SaveSystem;
+using SpecialAssignment;
 
 namespace AltEnding
 {
@@ -44,6 +45,20 @@ namespace AltEnding
             boolVariablePrefab.SetActive(false);
             intVariablePrefab.SetActive(false);
             stringVariablePrefab.SetActive(false);
+
+            //var docId = 72057778721521711UL;
+            //var docId = "FFr_3EEEA811";
+            //var docId = "FFr_C7942222";
+            var docId = NavigationManager.ArticyDoc;
+            if (!string.IsNullOrEmpty(docId)) {
+                Debug.Log("Loading articy file " + docId);
+                bool hasDoc = ArticyDatabase.IsObjectAvailable(docId);
+                Debug.Log("Has doc? " + hasDoc);
+
+                var doc = ArticyDatabase.GetObject(docId);
+                Debug.Log("Doc? " + doc);
+                flowPlayer.StartOn = doc;
+            }
         }
         
         void Update()
@@ -121,6 +136,7 @@ namespace AltEnding
             TMP_Text prefabLabel = null;
             foreach (KeyValuePair<string, object> kvp in variables)
             {
+                Debug.Log("Inspecting " + kvp.Key + "   " + kvp.Value);
                 if (flowPlayer.GlobalVariables.IsVariableOfTypeBoolean(kvp.Key))
                 {
                     prefabObject = Instantiate(boolVariablePrefab, variablesParent);
