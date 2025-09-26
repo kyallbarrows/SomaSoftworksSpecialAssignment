@@ -25,7 +25,10 @@ namespace SpecialAssignment
         public void OnBackButtonClicked()
         {
             Debug.Log("Back button clicked");
-            NavigationManager.LoadScene(NavigationManager.MAINMENU);
+            if (screenName == NavigationManager.ARTICY_DEBUGGER)
+                NavigationManager.LoadScene(NavigationManager.ARTICY_GALLERY);
+            else
+                NavigationManager.LoadScene(NavigationManager.MAINMENU);
         }
     }
 }
