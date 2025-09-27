@@ -152,10 +152,6 @@ MonoBehaviour:
     type: 3}
   buttonsHolder: {fileID: 1955833070}
   articyTechnicalNames:
-  - FFr_AB9995A5
-  - FFr_C7942222
-  - FFr_446C5881
-  - FFr_EA8A6F7F
   - FFr_52FF6C5E
 --- !u!4 &186006175
 Transform:
