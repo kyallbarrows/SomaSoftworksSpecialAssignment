@@ -15,13 +15,13 @@
       "hash": "381a052e0a97b9a772f70ace9cb23e83e58b7dac"
     },
     "com.soupday.cc3_unity_tools": {
-      "version": "https://github.com/soupday/cc_unity_tools_HDRP.git",
+      "version": "https://github.com/soupday/cc_unity_tools_URP.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.render-pipelines.high-definition": "10.5.0"
+        "com.unity.render-pipelines.universal": "10.5.0"
       },
-      "hash": "d634382c4bfd293b3bd9f0a9f1a6beb1654c4d57"
+      "hash": "069db15992e99ce0db176ffc5145a27d30873e87"
     },
     "com.unity.adaptiveperformance": {
       "version": "5.1.0",
@@ -74,7 +74,7 @@
     },
     "com.unity.collections": {
       "version": "1.4.0",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.6.6",
@@ -150,7 +150,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 3,
+      "depth": 4,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -182,30 +182,15 @@
         "com.unity.rendering.light-transport": "1.0.0"
       }
     },
-    "com.unity.render-pipelines.high-definition": {
+    "com.unity.render-pipelines.universal": {
       "version": "16.0.6",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.mathematics": "1.2.4",
-        "com.unity.collections": "1.4.0",
+        "com.unity.mathematics": "1.2.1",
         "com.unity.burst": "1.8.9",
-        "com.unity.modules.video": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.imageconversion": "1.0.0",
-        "com.unity.modules.terrain": "1.0.0",
         "com.unity.render-pipelines.core": "16.0.6",
-        "com.unity.shadergraph": "16.0.6",
-        "com.unity.visualeffectgraph": "16.0.6",
-        "com.unity.render-pipelines.high-definition-config": "16.0.6"
-      }
-    },
-    "com.unity.render-pipelines.high-definition-config": {
-      "version": "16.0.6",
-      "depth": 2,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "16.0.6"
+        "com.unity.shadergraph": "16.0.6"
       }
     },
     "com.unity.rendering.light-transport": {
@@ -293,15 +278,6 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
-      }
-    },
-    "com.unity.visualeffectgraph": {
-      "version": "16.0.6",
-      "depth": 2,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.shadergraph": "16.0.6",
-        "com.unity.render-pipelines.core": "16.0.6"
       }
     },
     "com.unity.visualscripting": {
