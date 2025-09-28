@@ -28,7 +28,7 @@ namespace SpecialAssignment
         
         public void OnExtrasPressed()
         {
-            NavigationManager.LoadScene(NavigationManager.EXTRAS);
+            NavigationManager.LoadScene(NavigationManager.CREDITS);
         }
         
         public void OnToolsPressed()

@@ -13,7 +13,7 @@ namespace SpecialAssignment
         public const string MAINMENU = "MainMenu";
         public const string GAMEPLAY = "Gameplay";
         public const string STORE = "Store";
-        public const string EXTRAS = "Extras";
+        public const string CREDITS = "Credits";
         public const string GALLERY = "Gallery";
         public const string ARTICY_GALLERY = "ArticyGallery";
         public const string ARTICY_DEBUGGER = "ArticyDebugger";
