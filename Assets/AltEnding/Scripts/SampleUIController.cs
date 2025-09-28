@@ -5,12 +5,18 @@ using Articy.Unity.Utils;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
 
 namespace AltEnding
 {
+	public class SpeakerChangedMessage
+	{
+		public string SpeakerName;
+	}
+
 	public class SampleUIController : MonoBehaviour
 	{
 		[Header("UI")]
@@ -74,7 +80,8 @@ namespace AltEnding
                 technicalNameLabel.text = "TN: " + articyObj.TechnicalName;
             }
 
-            displayNameLabel.text = ArticyStoryHelper.Instance.GetDisplayNameFromObject(aObject);
+            var speakerName = ArticyStoryHelper.Instance.GetDisplayNameFromObject(aObject);
+            ChangeSpeaker(speakerName);
 
             // To show text in the ui of the current node
             // we just check if it has a text property by using the object property interfaces,
@@ -96,6 +103,12 @@ namespace AltEnding
             if (string.IsNullOrWhiteSpace(background))
                 background = "---";
             backgroundLabel.SetText("Background: " + background);
+        }
+
+        private void ChangeSpeaker(string speakerName)
+        {
+	        displayNameLabel.text = speakerName;
+	        EventBetter.Raise(new SpeakerChangedMessage() { SpeakerName = speakerName });
         }
 
         private void ArticyFlowController_NewChoices(IList<Branch> branches)
