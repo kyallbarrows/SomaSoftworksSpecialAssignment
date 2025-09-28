@@ -21,15 +21,30 @@ namespace SpecialAssignment
 
         public static string ArticyDoc = "";
 
+        public static Stack<string> Pages = new Stack<string>();
+
         #endregion
 
         public static async void LoadScene(string sceneName)
         {
+            Pages.Push(sceneName);
+            
             // await ShowTransitionWipe();
 
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
 
             // await HideTransitionWipe();
+        }
+
+        public static async void Back()
+        {
+            if (Pages.Count > 0)
+            {
+                var currPage = Pages.Pop();
+                var lastPage = Pages.Peek();
+                SceneManager.LoadScene(lastPage, LoadSceneMode.Single);
+            }
+
         }
     }
 }

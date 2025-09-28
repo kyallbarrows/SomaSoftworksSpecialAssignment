@@ -1,209 +1,9 @@
 fileFormatVersion: 2
-guid: f0a2ca0e8a3164c498c920abc8d6c6e3
+guid: a635dea702ce5404db6eb717997673fc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Female_Brow_Base_Transparency_Diffuse
-    second: {fileID: 2800000, guid: cecfffc26ed9148749fc6cd1144cfdb4, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Female_Brow_Transparency_Diffuse
-    second: {fileID: 2800000, guid: 17fc073e08980408995ab06814f0db2d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Hair1_Transparency_Diffuse
-    second: {fileID: 2800000, guid: 3d1ea1a27c4d7428fbdc981a17b82cae, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Hair2_Transparency_Diffuse
-    second: {fileID: 2800000, guid: 88b097b7a15b64d22a76fc8178d7eb3c, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Hair3_Transparency_Diffuse
-    second: {fileID: 2800000, guid: 321a752932c3a4ce9a87fb69c8527eb9, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Hair4_Transparency_Diffuse
-    second: {fileID: 2800000, guid: cf3f37f09f1f14d858f09fe58f3f3507, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Hair_Transparency_Diffuse
-    second: {fileID: 2800000, guid: 332b7608abb9847ee924ef99840d920a, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Scalp_Transparency_Diffuse
-    second: {fileID: 2800000, guid: 38dc47bda78374c22bbe53b4c5c3a025, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Cornea_L_Diffuse
-    second: {fileID: 2800000, guid: 52497209f00e04f3592d41dc7a94dbfc, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Cornea_R_Diffuse
-    second: {fileID: 2800000, guid: c8c8dd923016548fca2935d0a3e6985e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_L_Diffuse
-    second: {fileID: 2800000, guid: 5f188e47fe2514b96a89ec943e68e424, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_L_Normal
-    second: {fileID: 2800000, guid: 4671540ed48cd498da394be2b6b59650, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_Occlusion_L_Opacity
-    second: {fileID: 2800000, guid: 5edb3d7fd049f43249a659675595c68c, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_Occlusion_R_Opacity
-    second: {fileID: 2800000, guid: 99bc0a99721f8420196325472b7fd0d9, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_R_Diffuse
-    second: {fileID: 2800000, guid: d45b000f200e7435a93e3fdbd2518022, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eye_R_Normal
-    second: {fileID: 2800000, guid: cc50b69171f8f42218d0fff4ee738d91, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eyelash_Diffuse
-    second: {fileID: 2800000, guid: 731ef46775e494053b66092f19cf52be, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Eyelash_Normal
-    second: {fileID: 2800000, guid: 4e802c169fb4d48dbaf2fe1d1540a705, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Lower_Teeth_Diffuse
-    second: {fileID: 2800000, guid: 8e71e11ddc7234453a30a9ced20e7cd0, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Lower_Teeth_Normal
-    second: {fileID: 2800000, guid: f1f9dda2bdea34e42923d49650982a98, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Nails_Diffuse
-    second: {fileID: 2800000, guid: 99092c1076844495e9e735c37a7facb2, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Nails_Normal
-    second: {fileID: 2800000, guid: 277517a5d6e324e658c00dcb2e80aa1c, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Arm_Diffuse
-    second: {fileID: 2800000, guid: 04cde57c6dd44474da7b1c98efa3f072, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Arm_Normal
-    second: {fileID: 2800000, guid: bfe1d998c1cf74bb1bfc18b92206932d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Body_Diffuse
-    second: {fileID: 2800000, guid: 203b3445d2ce34c73b513d427b6fbc53, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Body_Normal
-    second: {fileID: 2800000, guid: 1ea4391afda674077979ef6f9ebd5e10, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Head_Diffuse
-    second: {fileID: 2800000, guid: 11d11e68583c249c1a13ef1890c9624d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Head_Normal
-    second: {fileID: 2800000, guid: 88f2b9e1376ef4b13a4a21d1dd74b62a, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Leg_Diffuse
-    second: {fileID: 2800000, guid: 6b43da9c7484946d3ad1962cdb70ccfd, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Skin_Leg_Normal
-    second: {fileID: 2800000, guid: 43ad7616ef3214dda8711a98bb585315, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Tearline_L_Diffuse
-    second: {fileID: 2800000, guid: bf62a8d31a43849b9973f63524b20be4, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Tearline_R_Diffuse
-    second: {fileID: 2800000, guid: 29f505f39bd1b40db891bb39be69b8a6, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Tongue_Diffuse
-    second: {fileID: 2800000, guid: 06619c0f427154587b1473e9df03cff5, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Tongue_Normal
-    second: {fileID: 2800000, guid: f1fa8fc7a13a243b390267a612f7e4e3, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Upper_Teeth_Diffuse
-    second: {fileID: 2800000, guid: 52329ab5666a4442195675316f572f13, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Std_Upper_Teeth_Normal
-    second: {fileID: 2800000, guid: 98089f2d60ffa4006806970a5e6f1490, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Underwear_Bottoms_Diffuse
-    second: {fileID: 2800000, guid: 9f35b5206dc9b499fafd2c672d981abb, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Underwear_Bottoms_Normal
-    second: {fileID: 2800000, guid: bf2300412ef7b4e9284fa29404b60a3a, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: bathrobe_Diffuse
-    second: {fileID: 2800000, guid: 33d00a8d475d34dcfa72629056cb6d13, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: bathrobe_Normal
-    second: {fileID: 2800000, guid: 4e39235c9407a4aa7826b4f13bf1a5f8, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -217,10 +17,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Calibration' has import animation warnings
-      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'CC_Base_NeckTwist02' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -232,7 +29,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -1042,12 +868,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a635dea702ce5404db6eb717997673fc,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

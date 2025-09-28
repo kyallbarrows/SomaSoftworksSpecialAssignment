@@ -24,11 +24,19 @@ namespace SpecialAssignment
 
         public void OnBackButtonClicked()
         {
+            NavigationManager.Back();
+            /*
             Debug.Log("Back button clicked");
             if (screenName == NavigationManager.ARTICY_DEBUGGER)
                 NavigationManager.LoadScene(NavigationManager.ARTICY_GALLERY);
             else
                 NavigationManager.LoadScene(NavigationManager.MAINMENU);
+                */
+        }
+
+        public void OnVoicePrintButtonPressed()
+        {
+            NavigationManager.LoadScene(NavigationManager.VOICE_PRINT_TOOL);
         }
     }
 }
