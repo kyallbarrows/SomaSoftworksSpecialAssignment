@@ -1,0 +1,1951 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1148838690395967444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5606833997733932045}
+  - component: {fileID: 685497018364205411}
+  m_Layer: 0
+  m_Name: Sideburns_Narrow_Extracted3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5606833997733932045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148838690395967444}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4637192158923780859}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &685497018364205411
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148838690395967444}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 409289ce3a45f6e45a4f2c582c5e612d, type: 2}
+  - {fileID: 2100000, guid: e119997f5e667d24b9b03e88e9e1b670, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 0e70403e439860440940c5efdc96d4ba, type: 2}
+  m_Bones:
+  - {fileID: 7711244872813304561}
+  - {fileID: 5471463810972802709}
+  - {fileID: 5779501150370421211}
+  - {fileID: 4945359964558220709}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5779501150370421211}
+  m_AABB:
+    m_Center: {x: 0.0006090477, y: 0.10937635, z: 0.06397601}
+    m_Extent: {x: 0.07428284, y: 0.09561912, z: 0.07491011}
+  m_DirtyAABB: 0
+--- !u!1 &1570178921851640349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771941896706348679}
+  - component: {fileID: 7659373157558953256}
+  m_Layer: 0
+  m_Name: Sideburns_Narrow_Extracted1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771941896706348679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570178921851640349}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4637192158923780859}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &7659373157558953256
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570178921851640349}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9e2aa98a1b7294748b5639e1c74ff9e0, type: 2}
+  - {fileID: 2100000, guid: 39da62186db332342a565e9eea52400c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 0cb5fe8f30a9e5145878a34bdfbda86a, type: 2}
+  m_Bones:
+  - {fileID: 7711244872813304561}
+  - {fileID: 5471463810972802709}
+  - {fileID: 5779501150370421211}
+  - {fileID: 4945359964558220709}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5779501150370421211}
+  m_AABB:
+    m_Center: {x: 0.0006090477, y: 0.10937635, z: 0.06397601}
+    m_Extent: {x: 0.07428284, y: 0.09561912, z: 0.07491011}
+  m_DirtyAABB: 0
+--- !u!1 &2384798462441951165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4912206348415755443}
+  - component: {fileID: 4164821082233055190}
+  m_Layer: 0
+  m_Name: Classic_short_Extracted0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4912206348415755443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384798462441951165}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4637192158923780859}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4164821082233055190
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384798462441951165}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 16d3febdeb77470469e660e00b61224f, type: 2}
+  - {fileID: 2100000, guid: 7ad734be4a7d30d4095d2f411da69e3b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 3436e0a4fc5977a4ba56ce689f219709, type: 2}
+  m_Bones:
+  - {fileID: 7711244872813304561}
+  - {fileID: 4945359964558220709}
+  - {fileID: 5779501150370421211}
+  - {fileID: 5471463810972802709}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5779501150370421211}
+  m_AABB:
+    m_Center: {x: 0.0018823743, y: 0.17681053, z: -0.0070501864}
+    m_Extent: {x: 0.09442991, y: 0.13797566, z: 0.14212148}
+  m_DirtyAABB: 0
+--- !u!1 &3785241454104072277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3970968965678783421}
+  - component: {fileID: 4496373208472242813}
+  m_Layer: 0
+  m_Name: Sideburns_Narrow_Extracted4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3970968965678783421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785241454104072277}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4637192158923780859}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4496373208472242813
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3785241454104072277}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: acb87ec435005ee4090aed4b61d47cf2, type: 2}
+  - {fileID: 2100000, guid: 4cb12a6aef9fb5b4e8c0e535a7a9804c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 7d5237399ba47b347b2f7cc0c5b4f173, type: 2}
+  m_Bones:
+  - {fileID: 7711244872813304561}
+  - {fileID: 5471463810972802709}
+  - {fileID: 5779501150370421211}
+  - {fileID: 4945359964558220709}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5779501150370421211}
+  m_AABB:
+    m_Center: {x: 0.0006090477, y: 0.10937635, z: 0.06397601}
+    m_Extent: {x: 0.07428284, y: 0.09561912, z: 0.07491011}
+  m_DirtyAABB: 0
+--- !u!1 &6805158956091029378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3719113259586146812}
+  - component: {fileID: 6159570298599177735}
+  m_Layer: 0
+  m_Name: Sideburns_Narrow_Extracted0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3719113259586146812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805158956091029378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4637192158923780859}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &6159570298599177735
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805158956091029378}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 66b7370f1ec930e4597a1420a7375389, type: 2}
+  - {fileID: 2100000, guid: ded2717d449156d4a96acb2c429f1220, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: a4a11936f8cdefc41bb00ff0e03841b1, type: 2}
+  m_Bones:
+  - {fileID: 7711244872813304561}
+  - {fileID: 5471463810972802709}
+  - {fileID: 5779501150370421211}
+  - {fileID: 4945359964558220709}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5779501150370421211}
+  m_AABB:
+    m_Center: {x: 0.0006090477, y: 0.10937635, z: 0.06397601}
+    m_Extent: {x: 0.07428284, y: 0.09561912, z: 0.07491011}
+  m_DirtyAABB: 0
+--- !u!1 &8867885134469641984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 216294902876128700}
+  - component: {fileID: 522128333929570468}
+  m_Layer: 0
+  m_Name: Sideburns_Narrow_Extracted2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &216294902876128700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867885134469641984}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4637192158923780859}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &522128333929570468
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867885134469641984}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d9d037a448fbb394ca534ab766aa45dc, type: 2}
+  - {fileID: 2100000, guid: 7870391a7ed757c47b72637860815c51, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 92e82732571b0914aa33b2c41e58c2d5, type: 2}
+  m_Bones:
+  - {fileID: 7711244872813304561}
+  - {fileID: 5471463810972802709}
+  - {fileID: 5779501150370421211}
+  - {fileID: 4945359964558220709}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5779501150370421211}
+  m_AABB:
+    m_Center: {x: 0.0006090477, y: 0.10937635, z: 0.06397601}
+    m_Extent: {x: 0.07428284, y: 0.09561912, z: 0.07491011}
+  m_DirtyAABB: 0
+--- !u!1001 &5174676440731194640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6597378289169086553, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -272698260703527454, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_Name
+      value: New_Alex_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747962948313757172, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 94f2f4a5a975ffe40a1e167773c2f957, type: 2}
+    - target: {fileID: 4747962948313757172, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747962948313757172, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747962948313757172, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: aed9b425862091c418fa3bc5a85fc994, type: 2}
+    - target: {fileID: 8810294247385234632, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 6b05841501bf49a4eaaf58e3c4862475, type: 2}
+    - target: {fileID: 8810294247385234632, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810294247385234632, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8810294247385234632, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4b497764c461afc42993a51f05a4b2c2, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4912206348415755443}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3719113259586146812}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 771941896706348679}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 216294902876128700}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5606833997733932045}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3970968965678783421}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8304175215116285622, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1987258040152234952}
+  m_SourcePrefab: {fileID: 100100000, guid: 3a0d5f03ec5c9644ab704d84077fc796, type: 3}
+--- !u!137 &1139406017192572845 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5197118176682910397, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3814126200490976166 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8304175215116285622, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1987258040152234952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3814126200490976166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b759d06398d1384bb254a1a10ab6e7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinnedMeshRenderer: {fileID: 1139406017192572845}
+  headMaterial: {fileID: 2100000, guid: d1639e7bc10018843b40069d9f47a579, type: 2}
+  blendScale: 0.38
+  blendCurve: 1.5
+  blendFalloff: 4
+  updateFrequency: 30
+  config:
+  - blendShapeName: Brow_Raise_Inner_L
+    enabled: 1
+    blendShapeIndex: 8
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_browRaiseInner_L
+      weight: 0.26999998
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.03
+  - blendShapeName: Brow_Raise_Inner_R
+    enabled: 1
+    blendShapeIndex: 9
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_browRaiseInner_R
+      weight: 0.26999998
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.03
+  - blendShapeName: Brow_Raise_Outer_L
+    enabled: 1
+    blendShapeIndex: 10
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_browRaiseOuter_L
+      weight: 0.26999998
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Brow_Raise_Outer_R
+    enabled: 1
+    blendShapeIndex: 11
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_browRaiseOuter_R
+      weight: 0.26999998
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Brow_Drop_L
+    enabled: 1
+    blendShapeIndex: 12
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_browsDown_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.1
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Brow_Drop_R
+    enabled: 1
+    blendShapeIndex: 13
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_browsDown_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.1
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Brow_Compress_L
+    enabled: 1
+    blendShapeIndex: 14
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Brow_Compress_R
+    enabled: 1
+    blendShapeIndex: 15
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Eye_Blink_L
+    enabled: 1
+    blendShapeIndex: 16
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_blink_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_squintInner_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+  - blendShapeName: Eye_Blink_R
+    enabled: 1
+    blendShapeIndex: 17
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_blink_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_squintInner_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+  - blendShapeName: Eye_Squint_L
+    enabled: 1
+    blendShapeIndex: 18
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_squintInner_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Eye_Squint_R
+    enabled: 1
+    blendShapeIndex: 19
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_squintInner_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Eye_L_Look_Down
+    enabled: 1
+    blendShapeIndex: 28
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_blink_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_blink_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Nose_Sneer_L
+    enabled: 1
+    blendShapeIndex: 44
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_browsDown_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm2_normal_head_wm2_noseWrinkler_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Nose_Sneer_R
+    enabled: 1
+    blendShapeIndex: 45
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_browsDown_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm2_normal_head_wm2_browsLateral_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm2_normal_head_wm2_noseWrinkler_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Nose_Nostril_Raise_L
+    enabled: 1
+    blendShapeIndex: 46
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_noseWrinkler_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+  - blendShapeName: Nose_Nostril_Raise_R
+    enabled: 1
+    blendShapeIndex: 47
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_noseWrinkler_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+  - blendShapeName: Nose_Crease_L
+    enabled: 1
+    blendShapeIndex: 50
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_noseCrease_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: Nose_Crease_R
+    enabled: 1
+    blendShapeIndex: 51
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_noseCrease_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: Cheek_Raise_L
+    enabled: 1
+    blendShapeIndex: 60
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseUpper_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Cheek_Raise_R
+    enabled: 1
+    blendShapeIndex: 61
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseUpper_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Jaw_Open
+    enabled: 1
+    blendShapeIndex: 127
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Jaw_L
+    enabled: 1
+    blendShapeIndex: 130
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Jaw_R
+    enabled: 1
+    blendShapeIndex: 131
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Up
+    enabled: 1
+    blendShapeIndex: 106
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_L
+    enabled: 1
+    blendShapeIndex: 108
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_smile_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: Mouth_R
+    enabled: 1
+    blendShapeIndex: 109
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_smile_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: Mouth_Smile_L
+    enabled: 1
+    blendShapeIndex: 66
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm3_normal_head_wm3_smile_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Smile_R
+    enabled: 1
+    blendShapeIndex: 67
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+    - ruleName: head_wm3_normal_head_wm3_smile_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm3_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Smile_Sharp_L
+    enabled: 1
+    blendShapeIndex: 68
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.4
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.4
+    - ruleName: head_wm3_normal_head_wm3_smile_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+    - ruleName: head_wm3_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+    - ruleName: head_wm3_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+  - blendShapeName: Mouth_Smile_Sharp_R
+    enabled: 1
+    blendShapeIndex: 69
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.4
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.4
+    - ruleName: head_wm3_normal_head_wm3_smile_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+    - ruleName: head_wm3_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+    - ruleName: head_wm3_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.8
+  - blendShapeName: Mouth_Dimple_L
+    enabled: 1
+    blendShapeIndex: 74
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.15
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.15
+    - ruleName: head_wm3_normal_head_wm3_smile_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+    - ruleName: head_wm3_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+    - ruleName: head_wm3_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+  - blendShapeName: Mouth_Dimple_R
+    enabled: 1
+    blendShapeIndex: 75
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseInner_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.15
+    - ruleName: head_wm3_normal_head_wm3_cheekRaiseOuter_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.15
+    - ruleName: head_wm3_normal_head_wm3_smile_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+    - ruleName: head_wm3_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+    - ruleName: head_wm3_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.3
+  - blendShapeName: Mouth_Stretch_L
+    enabled: 1
+    blendShapeIndex: 72
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_mouthStretch_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Stretch_R
+    enabled: 1
+    blendShapeIndex: 73
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_mouthStretch_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Pucker_Up_L
+    enabled: 1
+    blendShapeIndex: 82
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Pucker_Up_R
+    enabled: 1
+    blendShapeIndex: 83
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Pucker_Down_L
+    enabled: 1
+    blendShapeIndex: 84
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.5
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Pucker_Down_R
+    enabled: 1
+    blendShapeIndex: 85
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.5
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Pucker
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.5
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.5
+  - blendShapeName: Mouth_Chin_Up
+    enabled: 1
+    blendShapeIndex: 122
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Up_Upper_L
+    enabled: 1
+    blendShapeIndex: 118
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_noseCrease_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Up_Upper_R
+    enabled: 1
+    blendShapeIndex: 119
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_noseCrease_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Neck_Tighten_L
+    enabled: 1
+    blendShapeIndex: 136
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Neck_Tighten_R
+    enabled: 1
+    blendShapeIndex: 137
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Head_Turn_L
+    enabled: 1
+    blendShapeIndex: 140
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+  - blendShapeName: Head_Turn_R
+    enabled: 1
+    blendShapeIndex: 141
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+  - blendShapeName: Head_Tilt_L
+    enabled: 1
+    blendShapeIndex: 142
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.75
+  - blendShapeName: Head_Tilt_R
+    enabled: 1
+    blendShapeIndex: 143
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_neckStretch_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.75
+  - blendShapeName: Head_Backward
+    enabled: 1
+    blendShapeIndex: 147
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.5
+  - blendShapeName: Mouth_Frown_L
+    enabled: 1
+    blendShapeIndex: 70
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_mouthStretch_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Frown_R
+    enabled: 1
+    blendShapeIndex: 71
+    ruleSets:
+    - ruleName: head_wm2_normal_head_wm2_mouthStretch_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: Mouth_Shrug_Lower
+    enabled: 1
+    blendShapeIndex: 115
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_L
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+    - ruleName: head_wm1_normal_head_wm1_chinRaise_R
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 1
+  - blendShapeName: V_Open
+    enabled: 1
+    blendShapeIndex: 0
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+  - blendShapeName: V_Tight_O
+    enabled: 1
+    blendShapeIndex: 3
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: V_Tight
+    enabled: 1
+    blendShapeIndex: 4
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: V_Wide
+    enabled: 1
+    blendShapeIndex: 5
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm3_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm3_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm3_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: AE
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.24
+  - blendShapeName: Ah
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6
+  - blendShapeName: EE
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm3_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm3_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+    - ruleName: head_wm3_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.7
+  - blendShapeName: Ih
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.15
+  - blendShapeName: K_G_H_NG
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.065
+  - blendShapeName: Oh
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.6025
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+  - blendShapeName: R
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.1
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.63
+  - blendShapeName: S_Z
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm3_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.14
+    - ruleName: head_wm3_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.14
+    - ruleName: head_wm3_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.14
+    - ruleName: head_wm3_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.14
+  - blendShapeName: T_L_D_N
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.0426
+  - blendShapeName: Th
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_jawOpen
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.1212
+  - blendShapeName: W_OO
+    enabled: 0
+    blendShapeIndex: -1
+    ruleSets:
+    - ruleName: head_wm1_normal_head_wm1_purse_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm1_purse_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm1_purse_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm1_purse_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_DL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_DR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_UL
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+    - ruleName: head_wm1_normal_head_wm13_lips_UR
+      weight: 1
+      enabled: 1
+      min: 0
+      max: 0.56
+  valueSets:
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+--- !u!4 &4637192158923780859 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4945359964558220709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 248074432326912181, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5471463810972802709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 882335638797273989, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5779501150370421211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7501645255488844597, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7711244872813304561 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3230203076670083041, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+    type: 3}
+  m_PrefabInstance: {fileID: 5174676440731194640}
+  m_PrefabAsset: {fileID: 0}
