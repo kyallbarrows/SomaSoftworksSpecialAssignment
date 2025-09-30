@@ -315,6 +315,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: New_Alex_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3a0d5f03ec5c9644ab704d84077fc796,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e1bf708f7aab9344851020591a19d59, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
