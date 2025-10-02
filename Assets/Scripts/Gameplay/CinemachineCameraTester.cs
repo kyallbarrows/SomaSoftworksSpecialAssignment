@@ -37,6 +37,7 @@ namespace SpecialAssignment
 
         public void OnSpeakerChanged(string speakerName)
         {
+            Debug.Log(speakerName);
             switch (speakerName)
             {
                 case "McLoughlin":

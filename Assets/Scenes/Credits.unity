@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 4863978799519969687, guid: 4710befca65d94d989fc3b2d5c246c13,
         type: 3}
       propertyPath: screenName
-      value: Extras
+      value: Credits
       objectReference: {fileID: 0}
     - target: {fileID: 5199625097940997227, guid: 4710befca65d94d989fc3b2d5c246c13,
         type: 3}
