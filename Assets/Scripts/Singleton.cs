@@ -4,29 +4,42 @@ using UnityEngine;
 
 namespace SpecialAssignment
 {
-    public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
+    public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
     {
-        public static T Instance { get; private set; }
+        private static T _instance;
 
-        void Awake()
+        public static T Instance
         {
-            if (Instance)
+            get
             {
-                Debug.LogError($"There is more than one instance of {typeof(T).Name}");
-                Destroy(gameObject);
-                return;
+                if (_instance == null)
+                {
+                    // Search for an existing instance in the scene
+                    _instance = FindObjectOfType<T>();
+
+                    // If no instance found, create a new GameObject and add the component
+                    if (_instance == null)
+                    {
+                        GameObject singletonObject = new GameObject(typeof(T).Name);
+                        _instance = singletonObject.AddComponent<T>();
+                    }
+                }
+                return _instance;
             }
+        }
 
-            Instance = this as T;
-
-            if (!Instance)
+        protected virtual void Awake()
+        {
+            if (_instance != null && _instance != this)
             {
-                Debug.Log($"Singleton {gameObject.name} is not of type {typeof(T).Name}");
+                // Destroy duplicate instances
                 Destroy(gameObject);
-                return;
             }
-
-            DontDestroyOnLoad(gameObject);
+            else
+            {
+                _instance = (T)this;
+                DontDestroyOnLoad(gameObject); // Optional: Persist across scenes
+            }
         }
     }
 }
