@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AltEnding;
+using Articy.Special_Assignment;
 using Cinemachine;
 using UnityEngine;
 
@@ -14,17 +16,17 @@ namespace SpecialAssignment
         private int LotusCameraIndex = 0;
         private int WhitmanCamerIndex = 2;
         
-        // Start is called before the first frame update
-        void Start()
+        private void Start()
         {
             cameras = new List<CinemachineVirtualCamera>(
                 FindObjectsByType<CinemachineVirtualCamera>(FindObjectsSortMode.InstanceID));
             
-            EventBetter.Listen(this, (AltEnding.SpeakerChangedMessage msg) => OnSpeakerChanged(msg.SpeakerName));
+            ArticyFlowController.SpecialActionObjectReached += OnSpecialAction;
         }
 
-        void OnDestroy()
+        private void OnDestroy()
         {
+            ArticyFlowController.SpecialActionObjectReached -= OnSpecialAction;
         }
 
         private void ShowCamera(int cameraIndex)
@@ -32,26 +34,6 @@ namespace SpecialAssignment
             for (int i = 0; i < cameras.Count; i++)
             {
                 cameras[i].enabled = (i == cameraIndex);
-            }
-        }
-
-        public void OnSpeakerChanged(string speakerName)
-        {
-            Debug.Log(speakerName);
-            switch (speakerName)
-            {
-                case "McLoughlin":
-                    // yep, she apparently goes by "McLoughlin" now.  
-                    ShowCamera(LotusCameraIndex);
-                    break;
-                
-                case "Whitman":
-                    ShowCamera(WhitmanCamerIndex);
-                    break;
-                
-                default:
-                    ShowCamera(WideShotCameraIndex);
-                    break;
             }
         }
 
@@ -80,10 +62,21 @@ namespace SpecialAssignment
             }
         }
 
-        // Update is called once per frame
-        void Update()
+        private void OnSpecialAction(string fullAction)
         {
-        
+            var actionParts = fullAction.Split('|');
+            if (!actionParts[0].Equals("CameraAngle"))
+                return;
+            
+            var action = Enum.Parse<Camera_Angle_01>(actionParts[1]);
+            int cameraIndex = action switch
+            {
+                Camera_Angle_01.MC_CU => WhitmanCamerIndex,
+                Camera_Angle_01.Char2_CU => LotusCameraIndex,
+                _ => WideShotCameraIndex
+            };
+            ShowCamera(cameraIndex);
+            Debug.Log($"[CameraAngle] {action}");
         }
     }
 }
