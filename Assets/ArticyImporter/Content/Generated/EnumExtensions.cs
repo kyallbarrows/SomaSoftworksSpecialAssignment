@@ -7,6 +7,16 @@ namespace Articy.Special_Assignment
 			return Articy.Unity.ArticyTypeSystem.GetArticyType("Sex").GetEnumValue(((int)(aSex))).DisplayName;
 		}
 
+		public static string GetDisplayName(this Camera_Angle_02 aCamera_Angle_02)
+		{
+			return Articy.Unity.ArticyTypeSystem.GetArticyType("Camera_Angle_02").GetEnumValue(((int)(aCamera_Angle_02))).DisplayName;
+		}
+
+		public static string GetDisplayName(this Camera_Angle_01 aCamera_Angle_01)
+		{
+			return Articy.Unity.ArticyTypeSystem.GetArticyType("Camera_Angle_01").GetEnumValue(((int)(aCamera_Angle_01))).DisplayName;
+		}
+
 		public static string GetDisplayName(this ShapeType aShapeType)
 		{
 			return Articy.Unity.ArticyTypeSystem.GetArticyType("ShapeType").GetEnumValue(((int)(aShapeType))).DisplayName;
