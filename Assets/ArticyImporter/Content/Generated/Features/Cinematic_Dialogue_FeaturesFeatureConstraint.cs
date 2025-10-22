@@ -51,6 +51,10 @@ namespace Articy.Special_Assignment.Features
         
         private EnumConstraint mCamera_Angle_02;
         
+        private TextConstraint mSceneValue;
+        
+        private TextConstraint mLineValue;
+        
         public EnumConstraint Camera_Angle_01
         {
             get
@@ -159,6 +163,24 @@ namespace Articy.Special_Assignment.Features
             }
         }
         
+        public TextConstraint SceneValue
+        {
+            get
+            {
+                EnsureConstraints();
+                return mSceneValue;
+            }
+        }
+        
+        public TextConstraint LineValue
+        {
+            get
+            {
+                EnsureConstraints();
+                return mLineValue;
+            }
+        }
+        
         public virtual void EnsureConstraints()
         {
             if ((mLoadedConstraints == true))
@@ -178,6 +200,8 @@ namespace Articy.Special_Assignment.Features
             mTiming = new Articy.Unity.Constraints.TextConstraint(2048, "", null, true, true);
             mDialogue_ID = new Articy.Unity.Constraints.TextConstraint(2048, "", null, true, true);
             mCamera_Angle_02 = new Articy.Unity.Constraints.EnumConstraint(false, "BySortIndex");
+            mSceneValue = new Articy.Unity.Constraints.TextConstraint(2048, "", null, false, false);
+            mLineValue = new Articy.Unity.Constraints.TextConstraint(2048, "", null, false, false);
         }
     }
 }
