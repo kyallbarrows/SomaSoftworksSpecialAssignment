@@ -3,6 +3,7 @@ using Articy.Special_Assignment;
 using Articy.Special_Assignment.Features;
 using Articy.Special_Assignment.GlobalVariables;
 using Articy.Unity;
+using Articy.Unity.Interfaces;
 using Articy.Unity.Utils;
 
 namespace AltEnding
@@ -81,7 +82,10 @@ namespace AltEnding
             {
                 var feature = objectWithFeature.GetFeatureCinematic_Dialogue_Features();
                 var cameraAngle = feature.Camera_Angle_01;
-                return $"CameraAngle|{cameraAngle}";
+                var dialogue = flowObject as DialogueFragment;
+                var entity = dialogue?.Speaker as Entity;
+                string assetId = $"{feature.SceneValue}_{cameraAngle}_{entity?.DisplayName}_{feature.LineValue}";
+                return $"CameraAngle|{cameraAngle}|AssetID|{assetId}";
             }
             
             return actionType;
