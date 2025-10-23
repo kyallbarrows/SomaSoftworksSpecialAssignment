@@ -62,6 +62,12 @@ namespace Articy.Special_Assignment.Features
         private Camera_Angle_02 mCamera_Angle_02 = new Camera_Angle_02();
         
         [SerializeField()]
+        private ArticyValueArticyString mSceneValue = new ArticyValueArticyString();
+        
+        [SerializeField()]
+        private ArticyValueArticyString mLineValue = new ArticyValueArticyString();
+        
+        [SerializeField()]
         private UInt64 mOwnerId;
         
         [SerializeField()]
@@ -221,6 +227,30 @@ namespace Articy.Special_Assignment.Features
             }
         }
         
+        public ArticyString SceneValue
+        {
+            get
+            {
+                return mSceneValue.GetValue();
+            }
+            set
+            {
+                mSceneValue.SetValue(value);
+            }
+        }
+        
+        public ArticyString LineValue
+        {
+            get
+            {
+                return mLineValue.GetValue();
+            }
+            set
+            {
+                mLineValue.SetValue(value);
+            }
+        }
+        
         public UInt64 OwnerId
         {
             get
@@ -290,6 +320,14 @@ namespace Articy.Special_Assignment.Features
                 newClone.mDialogue_ID = ((ArticyValueArticyMultiLanguageString)(mDialogue_ID.CloneObject(newClone, aFirstClassParent)));
             }
             newClone.Camera_Angle_02 = Camera_Angle_02;
+            if ((mSceneValue != null))
+            {
+                newClone.mSceneValue = ((ArticyValueArticyString)(mSceneValue.CloneObject(newClone, aFirstClassParent)));
+            }
+            if ((mLineValue != null))
+            {
+                newClone.mLineValue = ((ArticyValueArticyString)(mLineValue.CloneObject(newClone, aFirstClassParent)));
+            }
             newClone.OwnerId = OwnerId;
         }
         
@@ -363,6 +401,16 @@ namespace Articy.Special_Assignment.Features
                 Camera_Angle_02 = ((Camera_Angle_02)(aValue));
                 return;
             }
+            if ((aProperty == "SceneValue"))
+            {
+                SceneValue = System.Convert.ToString(aValue);
+                return;
+            }
+            if ((aProperty == "LineValue"))
+            {
+                LineValue = System.Convert.ToString(aValue);
+                return;
+            }
         }
         
         public Articy.Unity.Interfaces.ScriptDataProxy getProp(string aProperty)
@@ -414,6 +462,14 @@ namespace Articy.Special_Assignment.Features
             if ((aProperty == "Camera_Angle_02"))
             {
                 return new Articy.Unity.Interfaces.ScriptDataProxy(Camera_Angle_02);
+            }
+            if ((aProperty == "SceneValue"))
+            {
+                return new Articy.Unity.Interfaces.ScriptDataProxy(SceneValue);
+            }
+            if ((aProperty == "LineValue"))
+            {
+                return new Articy.Unity.Interfaces.ScriptDataProxy(LineValue);
             }
             return null;
         }
