@@ -2,39 +2,26 @@ using UnityEngine;
 
 public class LookAtTarget : MonoBehaviour
 {
-    public Transform target; // The other character
-    public string headBoneName = "CC_Base_Head"; // Name of the head bone
-    private Transform headBone;
+    public Transform source; // Object (bone) that will do the looking
+    public Transform target; // The target object (bone)
     public float lookSpeed = 5f;
     public bool enableLookAt = true;
     
-    void Start()
-    {
-        // Automatically find the head bone by name
-        Transform[] allChildren = GetComponentsInChildren<Transform>();
-        foreach (Transform child in allChildren)
-        {
-            if (child.name == headBoneName)
-            {
-                headBone = child;
-                Debug.Log("Found head bone: " + child.name);
-                break;
-            }
-        }
-        
-        if (headBone == null)
-        {
-            Debug.LogError("Could not find head bone named: " + headBoneName);
-        }
-    }
+    private float lookAtProgress = 0f;
     
-    void LateUpdate()
+    private void LateUpdate()
     {
-        if (enableLookAt && target != null && headBone != null)
-        {
-            Vector3 direction = target.position - headBone.position;
-            Quaternion lookRotation = Quaternion.LookRotation(direction);
-            headBone.rotation = Quaternion.Slerp(headBone.rotation, lookRotation, Time.deltaTime * lookSpeed);
-        }
+        if (source == null || target == null)
+            return;
+        
+        Vector3 direction = target.position - source.position;
+        var lookRotation = Quaternion.LookRotation(direction);
+        
+        if (enableLookAt)
+            lookAtProgress = Mathf.Min(lookAtProgress + Time.deltaTime, lookSpeed);
+        else
+            lookAtProgress = Mathf.Max(0f, lookAtProgress - Time.deltaTime);
+        
+        source.rotation = Quaternion.Slerp(source.rotation, lookRotation, lookAtProgress / lookSpeed);
     }
 }

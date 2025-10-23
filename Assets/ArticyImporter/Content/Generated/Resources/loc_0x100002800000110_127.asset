@@ -114,12 +114,6 @@ MonoBehaviour:
   - DFr_A5A005B1.Text
   - DFr_459AC905.Text
   - DFr_FF8FFAB2.Text
-  - DFr_CE6E0182.Text
-  - DFr_F167CECF.Text
-  - DFr_36C51599.Text
-  - DFr_499AE366.Text
-  - DFr_525917D6.Text
-  - DFr_178DF758.Text
   - DFr_FAC829C9.Text
   - DFr_0CF4F090.Text
   - DFr_8D6ACA76.Text
@@ -478,11 +472,14 @@ MonoBehaviour:
   - DFr_5EADD8F9.Text
   - DFr_5EADD8F9.Cinematic_Dialogue_Features.Body_Animation
   - DFr_AEC8A247.Text
+  - DFr_AEC8A247.Cinematic_Dialogue_Features.Performance_Notes
   - DFr_A54A97A4.Text
   - DFr_A54A97A4.Cinematic_Dialogue_Features.Performance_Notes
   - DFr_A54A97A4.Cinematic_Dialogue_Features.Body_Animation
   - DFr_64F5DF74.Text
+  - DFr_64F5DF74.Cinematic_Dialogue_Features.Performance_Notes
   - DFr_51C66B23.Text
+  - DFr_51C66B23.Cinematic_Dialogue_Features.Performance_Notes
   - DFr_CDE7EA52.Cinematic_Dialogue_Features.Camera_Directions
   - DFr_CDE7EA52.Cinematic_Dialogue_Features.Performance_Notes
   - DFr_CDE7EA52.Cinematic_Dialogue_Features.Body_Animation
@@ -490,8 +487,113 @@ MonoBehaviour:
   - DFr_131649AA.Cinematic_Dialogue_Features.Audio_Notes
   - DFr_131649AA.Cinematic_Dialogue_Features.Performance_Notes
   - DFr_131649AA.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_281CEB65.Text
   - DFr_281CEB65.Cinematic_Dialogue_Features.Camera_Directions
   - DFr_281CEB65.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_A236D4F6.Text
+  - DFr_A236D4F6.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_A236D4F6.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A236D4F6.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A236D4F6.Cinematic_Dialogue_Features.Timing
+  - DFr_1FE6E6C4.Text
+  - DFr_1FE6E6C4.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_1FE6E6C4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_1FE6E6C4.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_1FE6E6C4.Cinematic_Dialogue_Features.Timing
+  - DFr_6507CFBD.Text
+  - DFr_6507CFBD.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_6507CFBD.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_6507CFBD.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_9FA9936D.Text
+  - DFr_9FA9936D.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_9FA9936D.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_9FA9936D.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_42B30E81.Text
+  - DFr_AB75E6D6.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_DEE0326E.Text
+  - DFr_DEE0326E.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_DEE0326E.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_DAC962C0.Text
+  - DFr_DAC962C0.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_DAC962C0.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_DAC962C0.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_DAC962C0.Cinematic_Dialogue_Features.Timing
+  - DFr_7B6B1D2C.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_7B6B1D2C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_569D364E.Text
+  - DFr_0E3D1438.Text
+  - DFr_9C4887A9.Text
+  - DFr_484DE38F.Text
+  - DFr_484DE38F.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_484DE38F.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_62978B07.Text
+  - DFr_62978B07.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_62978B07.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_07D005F3.Text
+  - DFr_07D005F3.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_F07C15D1.Text
+  - DFr_F07C15D1.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_F07C15D1.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_9ED32B45.Text
+  - DFr_9ED32B45.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_D0D5EFFB.Text
+  - DFr_AB006D23.Text
+  - DFr_AB006D23.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_AB006D23.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_AB006D23.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_3C04B7FC.Text
+  - DFr_3C04B7FC.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_3C04B7FC.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A8F8F054.Text
+  - DFr_A8F8F054.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A8F8F054.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_2142D2CE.Text
+  - DFr_2142D2CE.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_3A607CA4.Text
+  - DFr_3A607CA4.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_3A607CA4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_3A607CA4.Cinematic_Dialogue_Features.Timing
+  - DFr_5EDBE2D4.Text
+  - DFr_5EDBE2D4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_D04CC47D.Text
+  - DFr_D04CC47D.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_6EAB64F9.Text
+  - DFr_2C7AA650.Text
+  - DFr_2C7AA650.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A212A8F5.Text
+  - DFr_A212A8F5.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_A212A8F5.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A212A8F5.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_EF749618.Text
+  - DFr_CD9B8A89.Text
+  - DFr_CD9B8A89.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_E96943C7.Text
+  - DFr_F2FC0460.Text
+  - DFr_F2FC0460.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_9E404A1C.Text
+  - DFr_9E404A1C.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_9E404A1C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A37BB8FB.Text
+  - DFr_A37BB8FB.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_A37BB8FB.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A37BB8FB.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_E2C8C2E2.Text
+  - DFr_E2C8C2E2.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E2C8C2E2.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_8455BE32.Text
+  - DFr_8455BE32.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_8455BE32.Cinematic_Dialogue_Features.Timing
+  - DFr_2EC3B780.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_AE05A830.Text
+  - DFr_AE05A830.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_AE05A830.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_AE05A830.Cinematic_Dialogue_Features.Timing
+  - DFr_2DA600D0.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_2DA600D0.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E0C567C0.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_E0C567C0.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_E0C567C0.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_39557EBF.Cinematic_Dialogue_Features.Body_Animation
   - DFr_4135E2ED.Text
   - DFr_D40EE782.Text
   - DFr_FCB310E0.Text
@@ -517,7 +619,7 @@ MonoBehaviour:
   - Ntt_99D2BB04.DisplayName
   - Ntt_D210867B.DisplayName
   mLocalizedStringsValues:
-  - EXT. BOARDWALK - EVENING
+  - EXT. BOARDWALK - DAY
   - INT. MASSAGE PARLOR - DAY
   - INT. PAWN SHOP - DAY
   - INT. CONVENIENCE STORE - DAY
@@ -682,12 +784,6 @@ MonoBehaviour:
 
     Anyway, my gut tells me it''s just some
     paranoid middle-aged white lady who watches too much SVU.'
-  - whitman understands what happened
-  - whitman uses her name
-  - lily opens up
-  - assistant manager not the ultimate bad guy here
-  - another manager - key information
-  - lily leaves
   - You ok, Whitman?
   - Dizzy spell. Vertigo or something. I'm fine.
   - So, was I right?
@@ -1297,12 +1393,15 @@ MonoBehaviour:
   - Lily slides off the bed and crosses to the sink, where she checks her makeup
     in the mirror, more out of boredom than anything else.
   - Just a couple more questions.
+  - Business-like, professional.
   - Haven't you already made our lives hard enough?
   - Lily couldn't be less interested. Not engaging with Whitman at all.
   - Lily's back is still to us. She peers closer into the mirror, inspecting her
     lipstick or something on her cheek or whatever.
   - I wanted to give you one more chance.
+  - Direct. Not angry, just tough love. No time to mess around.
   - I need your help, Lily.
+  - Vulnerable. Almost begging. Looks down at first, then looks up and speaks.
   - The room starts to tilt around Whitman.
   - Whitman isn't scared this time. He knows exactly what's happening and he is determined
     not to let it get the better of him this time. Using every ounce of concentration
@@ -1314,6 +1413,8 @@ MonoBehaviour:
     As Whitman focuses, the sound starts to clear...
   - Whitman grimaces, trying to listen to the shadow like Chen taught him.
   - Whitman is holding onto the doorframe for dear life.
+  - '"...they will never take you back, not after what you have done. Madeline is
+    dead. You are Lily and you are mine."'
   - Back on the shadow. Focus even closer on the shadow now if possible.
   - '...and then the muddy sound snaps into focus and we hear the shadow''s line:
 
@@ -1322,6 +1423,151 @@ MonoBehaviour:
     "...they
     will never take you back, not after what you have done. Madeline is dead. You
     are Lily and you are mine."'
+  - Who is he?
+  - Whitman looms a little larger over Lily's shoulder. Not close enough to be actually
+    threatening.
+  - Straight to the point, but not unkind. Whitman watches Lily's face closely for
+    any reaction.
+  - Whitman walks closer, closing the distance between him and Lily.
+  - Whitman doesn't speak until he stops moving.
+  - Tell me what happened. What's his name?
+  - Whitman looms a little larger over Lily as he gets closer. He comes close enough
+    to be almost threatening, at least putting pressure on her.
+  - Whitman watches Lily closely.
+  - Whitman walks a little closer to Lily, closing the distance between them.
+  - Wait until Whitman stops walking and reaches new position before he speaks.
+  - It doesn't matter what he made you do. You don't belong to him.
+  - Whitman approaches a bit, but still keeps some distance. Non-threatening, indirect.
+  - Whitman considers his words, tries to find the kindest possible way to phrase
+    this.
+  - Whitman takes a few slow steps towards Lily, but at bit of an angle, a tangent,
+    so that he's not moving straight towards her.
+  - Who?
+  - Both Whitman and Lily in the shot.
+  - Lily turns and stares at Whitman.
+  - Maybe half turn of her body, her hands frozen mid-action with whatever she was
+    doing.
+  - The man who haunts you.
+  - Lily just stares at Whitman, frozen in fear, unable to move.
+  - You can trust me, Madeline.
+  - Very, very low key. As gently and quietly as possible. Very indirect. Not even
+    quite looking straight at her, maybe faced slightly away and looking at Lily
+    at a bit of an angle.
+  - Very very still.
+  - How do you know that name?
+  - Cut to wide shot right as she crumples to ground.
+  - Totally stunned. Wind knocked out of her. World turned upside down.
+  - She sits down heavily on the edge of the raised platform in front of the sink.
+  - She sits down hard, bump, then speaks.
+  - Utter shock on Lily's face. She stares at Whitman for a moment, speechless.
+  - Lily starts to crumple to the ground, but we cut to the next shot right as that's
+    happening.
+  - Just answer the question. Who is he? Who did this to you?
+  - It's complicated. Why don't you just tell me who's responsible for all this?
+  - Honestly, I'm not sure. But I do know that you don't deserve any of this and
+    if you tell me who's responsible, I will make sure it never happens again.
+  - It's Madeline, isn't it? Give me something to work with.
+  - 
+  - Whitman does something casual with his hands, like puts them in his pocket or
+    puts them on his hips or takes out a notebook or something.
+  - I can't help you if you don't talk to me, Madeline.
+  - He's starting to get a bit fed up, honestly.
+  - Whitman crosses his arms.
+  - You can't stop him, Whitman.
+  - Her attention snaps back onto Whitman. Extreme, red alert, hypervigilant focus.
+  - Is it Parrish, your manager?
+  - I see these next three shots as a bit of a verbal tennis match, back and forth,
+    slightly combative. Hence the over-the-shoulder shots, which I hope will create
+    a sense of the control of the conversation bouncing back and forth between the
+    two characters.
+  - Relentless. Can't let this go.
+  - Rod?! He's just as much a slave here as I am. He's not even the real manager.
+  - Lily scoffs at the mention of Rod Parrish's name.
+  - Then who is?
+  - 
+  - As Lily stands, cut to her close up so we can really feel her indecision.
+  - This is a point of no return for her. The hardest decision she has made in a
+    long time.
+  - Lily hesitates, then rises.
+  - We're running out of time, Lily! I need a name.
+  - Trying to push her.
+  - Gesturing forcefully his with hands. This is urgent!
+  - Lily -- Madeline -- please. Give me a name.
+  - Nearing his wits' end. This is taking way too long.
+  - Shaking his head when he gets her name wrong. Frustrated and flustered.
+  - Madeline. I can't help you unless you talk to me. What is his name?
+  - Open, pleading gestures.
+  - I don't know his name. I've never even seen his face. But he comes by once a
+    week. Monday nights, after the weekend rush. He sits in his car in the parking
+    lot. Rod goes out to talk to him, give him the money, get orders, you know. Rod's
+    not a bad guy, really. I think he tries to make things as easy for us as he can.
+  - Since it's a long set of lines, it might be smart to cut back to Whitman briefly
+    in the middle of them.
+  - She looks away, thinking, weighing everything in her mind. These lines start
+    off weak and hesitant and get stronger as she goes along.
+  - She does not answer right away. Rest on Lily for a minute before she speaks.
+  - What time on Monday?
+  - Restrained eagerness. We're right on the brink of a breakthrough.
+  - Nine p.m., I think.
+  - Still looking away.
+  - And this guy, your manager -- this is the one who took you?
+  - You really have no idea what you're up against. He's nobody. Green Man has a
+    hundred just like him.
+  - Lily finally looks up at Whitman again. She's afraid -- but she's afraid for
+    him.
+  - I'm not even from China or Thailand or whatever it is they advertise. None of
+    us are. The names, the accents, it's all fake. I'm from Modesto.
+  - I think it's time for a straight on, wide open close up. We are seeing the really
+    Lily, aka Madeline, for the first time.
+  - 'Her gaze drifts away from Whitman after she speaks. She starts to remember.
+    A thousand memories flooding back into her soul.
+
+    
+
+    The line is a little
+    absent, distracted. There''s so much going on inside her right now that she''s
+    not even really answering Whitman''s question.'
+  - I see her arms wrapped around herself, kind of hugging herself tight, some very
+    small comfort in this overwhelming moment.
+  - Madeline --
+  - Madeline --
+  - My thinking here (for all three branches at this spot) is to keep Whitman in
+    a medium shot so that when we immediately cut back to Lily as she interrupts
+    him she has more power in the moment because she'll be in a close up.
+  - Madeline --
+  - Green Man?
+  - Whitman frowns, confused. Did he mishear Lily?
+  - 
+  - A door slams somewhere in the hall.
+  - Lily and Whitman both look toward the sound of the slamming door. Then Lily hurries
+    out of the room to investigate. Whitman follows her to the door.
+  - What is it?
+  - Calling after Lily, although she does not answer right away.
+  - Whitman can tell something is wrong, but he's not sure what.
+  - Whitman waits uneasily for Lily to return.
+  - Jasmine is gone.
+  - 
+  - 
+  - She heard us. I have to go. I'll have the station send someone to keep an eye
+    on you all.
+  - As soon as the line is done, he starts for the door.
+  - As soon as the line is done, he starts for the door.
+  - 'Lily steps fully into the room and out of the way so Whitman can exit.
+
+    
+
+    He
+    hurries for the door, but pauses in front of Lily.'
+  - You're going to be free, Madeline.
+  - A two shot of Whitman looking down at Lily.
+  - Whitman pauses in the doorway, looking down at Lily for a second, then exits.
+  - He hovers there for just a split second, delivers the line, and hurries out.
+  - We hear Whitman's footsteps receding and then the same door opening and closing.
+  - Lily watches him go, still trying to process everything that just happened.
+  - Video returns to normal.
+  - Sound returns to normal.
+  - 'Whitman shakes it off, tries to gather his thoughts. '
+  - Lily reappears in the doorway, looking worried.
   - It's Whitman, isn't it?
   - Yes, Ma'am.
   - Still a patrol officer, I see.
