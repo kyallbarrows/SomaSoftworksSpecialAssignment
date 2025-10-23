@@ -67,6 +67,22 @@ MonoBehaviour:
     mHasTemplate: 0
     mFeatures: []
     mProperties: []
+  - mTechnicalName: Camera_Angle_02
+    mDisplayName: Camera Angle 02
+    mCSharpType: Articy.Special_Assignment.Camera_Angle_02, ArticyGenerated, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mIsEnum: 1
+    mHasTemplate: 0
+    mFeatures: []
+    mProperties: []
+  - mTechnicalName: Camera_Angle_01
+    mDisplayName: Camera Angle 01
+    mCSharpType: Articy.Special_Assignment.Camera_Angle_01, ArticyGenerated, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mIsEnum: 1
+    mHasTemplate: 0
+    mFeatures: []
+    mProperties: []
   - mTechnicalName: ShapeType
     mDisplayName: ShapeType
     mCSharpType: Articy.Special_Assignment.ShapeType, ArticyGenerated, Version=0.0.0.0,
@@ -391,6 +407,442 @@ MonoBehaviour:
     mHasTemplate: 0
     mFeatures: []
     mProperties:
+    - mTechnicalName: MenuText
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: Articy.Unity.ArticyString, ArticyRuntime, Version=1.3.0.0, Culture=neutral,
+        PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: StageDirections
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: Articy.Unity.ArticyString, ArticyRuntime, Version=1.3.0.0, Culture=neutral,
+        PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Speaker
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=1.3.0.0, Culture=neutral,
+        PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: SplitHeight
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Color
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Text
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: ExternalId
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Position
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: ZIndex
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Size
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: ShortId
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Id
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: TechnicalName
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Parent
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: Articy.Unity.ArticyObject, ArticyRuntime, Version=1.3.0.0, Culture=neutral,
+        PublicKeyToken=null
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: InputPins
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.Collections.Generic.List`1[[Articy.Special_Assignment.InputPin,
+        ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: OutputPins
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.Collections.Generic.List`1[[Articy.Special_Assignment.OutputPin,
+        ArticyGenerated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: ParentId
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: InstanceId
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+    - mTechnicalName: Children
+      mDisplayName: 
+      mIsTemplateProperty: 0
+      mPropertyType: System.Collections.ArrayList, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      mConstraintNames: 
+      mConstraintValues: []
+  - mTechnicalName: Cinematic_Dialogue_Template
+    mDisplayName: Cinematic Dialogue Template
+    mCSharpType: Articy.Special_Assignment.Cinematic_Dialogue_Template, ArticyGenerated,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    mIsEnum: 0
+    mHasTemplate: 1
+    mFeatures:
+    - Cinematic_Dialogue_Features
+    mProperties:
+    - mTechnicalName: Cinematic_Dialogue_Features.Camera_Angle_01
+      mDisplayName: Camera Angle 01
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Special_Assignment.Camera_Angle_01, ArticyGenerated,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - False
+      - 
+      - False
+      - False
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - BySortIndex
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Camera_Directions
+      mDisplayName: Camera Directions
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Audio_Cues
+      mDisplayName: Audio Cues
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Audio_Notes
+      mDisplayName: Audio Notes
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Performance_Notes
+      mDisplayName: Performance Notes
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Export_Tags
+      mDisplayName: Export Tags
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Facial_Idle_Loop
+      mDisplayName: Facial Idle Loop
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Evidence_ID
+      mDisplayName: Evidence ID
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Body_Animation
+      mDisplayName: Body Animation
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Timing
+      mDisplayName: Timing
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Dialogue_ID
+      mDisplayName: Dialogue ID
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+        Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - True
+      - 
+      - False
+      - True
+      - 2048
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - 
+      - 
+    - mTechnicalName: Cinematic_Dialogue_Features.Camera_Angle_02
+      mDisplayName: Camera Angle 02
+      mIsTemplateProperty: 1
+      mPropertyType: Articy.Special_Assignment.Camera_Angle_02, ArticyGenerated,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+      mConstraintValues:
+      - 
+      - 
+      - 
+      - False
+      - 
+      - False
+      - False
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 
+      - 0
+      - 
+      - BySortIndex
+      - 
     - mTechnicalName: MenuText
       mDisplayName: 
       mIsTemplateProperty: 0
@@ -3753,6 +4205,306 @@ MonoBehaviour:
     mPropertyType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     mConstraintNames: 
     mConstraintValues: []
+  - mTechnicalName: Cinematic_Dialogue_Features.Camera_Angle_01
+    mDisplayName: Camera Angle 01
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Special_Assignment.Camera_Angle_01, ArticyGenerated, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - False
+    - 
+    - False
+    - False
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - BySortIndex
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Camera_Directions
+    mDisplayName: Camera Directions
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Audio_Cues
+    mDisplayName: Audio Cues
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Audio_Notes
+    mDisplayName: Audio Notes
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Performance_Notes
+    mDisplayName: Performance Notes
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Export_Tags
+    mDisplayName: Export Tags
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Facial_Idle_Loop
+    mDisplayName: Facial Idle Loop
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Evidence_ID
+    mDisplayName: Evidence ID
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Body_Animation
+    mDisplayName: Body Animation
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Timing
+    mDisplayName: Timing
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Dialogue_ID
+    mDisplayName: Dialogue ID
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Camera_Angle_02
+    mDisplayName: Camera Angle 02
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Special_Assignment.Camera_Angle_02, ArticyGenerated, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - False
+    - 
+    - False
+    - False
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - BySortIndex
+    - 
   - mTechnicalName: CreatedBy
     mDisplayName: 
     mIsTemplateProperty: 0
@@ -4305,6 +5057,8 @@ MonoBehaviour:
   mArticyTypeNames:
   - ArticyObject
   - Sex
+  - Camera_Angle_02
+  - Camera_Angle_01
   - ShapeType
   - SelectabilityModes
   - VisibilityModes
@@ -4315,6 +5069,7 @@ MonoBehaviour:
   - FlowFragment
   - Dialogue
   - DialogueFragment
+  - Cinematic_Dialogue_Template
   - Hub
   - Comment
   - Jump
@@ -4338,6 +5093,10 @@ MonoBehaviour:
   - Articy.Unity.ArticyObject, ArticyRuntime, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null
   - Articy.Special_Assignment.Sex, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
+  - Articy.Special_Assignment.Camera_Angle_02, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  - Articy.Special_Assignment.Camera_Angle_01, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
   - Articy.Special_Assignment.ShapeType, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   - Articy.Special_Assignment.SelectabilityModes, ArticyGenerated, Version=0.0.0.0,
@@ -4357,6 +5116,8 @@ MonoBehaviour:
   - Articy.Special_Assignment.Dialogue, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   - Articy.Special_Assignment.DialogueFragment, ArticyGenerated, Version=0.0.0.0,
+    Culture=neutral, PublicKeyToken=null
+  - Articy.Special_Assignment.Cinematic_Dialogue_Template, ArticyGenerated, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   - Articy.Special_Assignment.Hub, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
@@ -4397,6 +5158,18 @@ MonoBehaviour:
   - Articy.Special_Assignment.UserFolder, ArticyGenerated, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   mFeatureProps:
+  - Cinematic_Dialogue_Features.Camera_Angle_01
+  - Cinematic_Dialogue_Features.Camera_Directions
+  - Cinematic_Dialogue_Features.Audio_Cues
+  - Cinematic_Dialogue_Features.Audio_Notes
+  - Cinematic_Dialogue_Features.Performance_Notes
+  - Cinematic_Dialogue_Features.Export_Tags
+  - Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - Cinematic_Dialogue_Features.Evidence_ID
+  - Cinematic_Dialogue_Features.Body_Animation
+  - Cinematic_Dialogue_Features.Timing
+  - Cinematic_Dialogue_Features.Dialogue_ID
+  - Cinematic_Dialogue_Features.Camera_Angle_02
   - DefaultBasicCharacterFeature.Age
   - DefaultBasicCharacterFeature.Species
   - DefaultBasicCharacterFeature.BornIn
@@ -4412,6 +5185,306 @@ MonoBehaviour:
   - DefaultExtendedCharacterFeature.Habits
   - DefaultExtendedCharacterFeature.FurtherDetails
   mFeaturePropInfos:
+  - mTechnicalName: Cinematic_Dialogue_Features.Camera_Angle_01
+    mDisplayName: Camera Angle 01
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Special_Assignment.Camera_Angle_01, ArticyGenerated, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - False
+    - 
+    - False
+    - False
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - BySortIndex
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Camera_Directions
+    mDisplayName: Camera Directions
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Audio_Cues
+    mDisplayName: Audio Cues
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Audio_Notes
+    mDisplayName: Audio Notes
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Performance_Notes
+    mDisplayName: Performance Notes
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Export_Tags
+    mDisplayName: Export Tags
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Facial_Idle_Loop
+    mDisplayName: Facial Idle Loop
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Evidence_ID
+    mDisplayName: Evidence ID
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Body_Animation
+    mDisplayName: Body Animation
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Timing
+    mDisplayName: Timing
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Dialogue_ID
+    mDisplayName: Dialogue ID
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Unity.ArticyMultiLanguageString, ArticyRuntime, Version=1.3.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - True
+    - 
+    - False
+    - True
+    - 2048
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - 
+    - 
+  - mTechnicalName: Cinematic_Dialogue_Features.Camera_Angle_02
+    mDisplayName: Camera Angle 02
+    mIsTemplateProperty: 1
+    mPropertyType: Articy.Special_Assignment.Camera_Angle_02, ArticyGenerated, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    mConstraintNames: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    mConstraintValues:
+    - 
+    - 
+    - 
+    - False
+    - 
+    - False
+    - False
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 0
+    - 
+    - BySortIndex
+    - 
   - mTechnicalName: DefaultBasicCharacterFeature.Age
     mDisplayName: Age
     mIsTemplateProperty: 1
@@ -4762,8 +5835,10 @@ MonoBehaviour:
     - 
     - 
   mFeatureTechnicalNames:
+  - Cinematic_Dialogue_Features
   - DefaultBasicCharacterFeature
   - DefaultExtendedCharacterFeature
   mFeatureDisplayNames:
+  - Cinematic Dialogue Features
   - Basic Character Properties
   - Extended Character Properties

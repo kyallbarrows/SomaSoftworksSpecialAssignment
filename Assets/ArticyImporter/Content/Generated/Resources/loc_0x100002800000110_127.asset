@@ -27,9 +27,13 @@ MonoBehaviour:
   - FFr_E0D81451.DisplayName
   - FFr_7DCF30EC.DisplayName
   - FFr_C7942222.DisplayName
+  - FFr_D477173A.DisplayName
   - Dlg_ABC8B7E9.DisplayName
   - Dlg_F240E31B.DisplayName
   - Dlg_B6D73BC6.DisplayName
+  - Dlg_6F650E4B.DisplayName
+  - Dlg_9ADD658D.DisplayName
+  - Dlg_454FFB5D.DisplayName
   - DFr_FC3D9FAB.Text
   - DFr_CE267888.Text
   - DFr_156A4662.Text
@@ -85,6 +89,7 @@ MonoBehaviour:
   - DFr_AF7E27CB.Text
   - DFr_4406355F.Text
   - DFr_0E9E8CEB.Text
+  - DFr_13A1AFC0.Text
   - DFr_5EDAC4AB.Text
   - DFr_9E4F8F4A.Text
   - DFr_2379FE6D.Text
@@ -109,8 +114,294 @@ MonoBehaviour:
   - DFr_A5A005B1.Text
   - DFr_459AC905.Text
   - DFr_FF8FFAB2.Text
+  - DFr_CE6E0182.Text
+  - DFr_F167CECF.Text
+  - DFr_36C51599.Text
+  - DFr_499AE366.Text
+  - DFr_525917D6.Text
+  - DFr_178DF758.Text
+  - DFr_FAC829C9.Text
+  - DFr_0CF4F090.Text
+  - DFr_8D6ACA76.Text
+  - DFr_6E9057EA.Text
+  - DFr_A25719CA.Text
+  - DFr_206C20AB.Text
+  - DFr_0E7C8F4E.Text
+  - DFr_480FF7F7.Text
+  - DFr_8AE7F497.Text
+  - DFr_B9BA911F.Text
+  - DFr_2AD6EFC2.Text
+  - DFr_E644D2AA.Text
+  - DFr_D05A57BE.Text
+  - DFr_7EEF2074.Text
+  - DFr_36A8E717.Text
   - DFr_FCAF83F1.Text
+  - DFr_FCAF83F1.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_FCAF83F1.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_FCAF83F1.Cinematic_Dialogue_Features.Body_Animation
   - DFr_29AB74D4.Text
+  - DFr_29AB74D4.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_29AB74D4.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_29AB74D4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_29AB74D4.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_29AB74D4.Cinematic_Dialogue_Features.Timing
+  - DFr_466FB846.Text
+  - DFr_466FB846.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_466FB846.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_06516647.Text
+  - DFr_06516647.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_06516647.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_06516647.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_06516647.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_06516647.Cinematic_Dialogue_Features.Timing
+  - DFr_172DCE0B.Text
+  - DFr_172DCE0B.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_172DCE0B.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_172DCE0B.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_172DCE0B.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_172DCE0B.Cinematic_Dialogue_Features.Timing
+  - DFr_AB0CB8A8.Text
+  - DFr_AB0CB8A8.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_B25E37DE.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_E693E8ED.Text
+  - DFr_E693E8ED.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_9F84766C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_E8D49DD7.Text
+  - DFr_E8D49DD7.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E8D49DD7.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_E8D49DD7.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_F2920877.Text
+  - DFr_F2920877.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_F2920877.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_D0891481.Text
+  - DFr_D0891481.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_D0891481.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_DD8D0F4F.Text
+  - DFr_DD8D0F4F.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_DD8D0F4F.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_DD8D0F4F.Cinematic_Dialogue_Features.Timing
+  - DFr_7E8B03DB.Text
+  - DFr_7E8B03DB.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_7E8B03DB.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_59B156D2.Text
+  - DFr_59B156D2.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_59B156D2.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_59B156D2.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_59B156D2.Cinematic_Dialogue_Features.Timing
+  - DFr_E07A6838.Text
+  - DFr_E07A6838.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E07A6838.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_E07A6838.Cinematic_Dialogue_Features.Timing
+  - DFr_11EDB998.Text
+  - DFr_11EDB998.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_8218E12F.Text
+  - DFr_8218E12F.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_8218E12F.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_8218E12F.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_8218E12F.Cinematic_Dialogue_Features.Timing
+  - DFr_2AE34CE8.Text
+  - DFr_2AE34CE8.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_E21CCAD4.Text
+  - DFr_E21CCAD4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_0411396F.Text
+  - DFr_0411396F.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_0411396F.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_0411396F.Cinematic_Dialogue_Features.Timing
+  - DFr_9A7A809D.Text
+  - DFr_9A7A809D.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_9A7A809D.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_9A7A809D.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_9A7A809D.Cinematic_Dialogue_Features.Timing
+  - DFr_A5C836E3.Text
+  - DFr_A5C836E3.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_A5C836E3.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A5C836E3.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A5C836E3.Cinematic_Dialogue_Features.Timing
+  - DFr_A09B63B0.Text
+  - DFr_E367BB2C.Text
+  - DFr_E367BB2C.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E367BB2C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A4062598.Text
+  - DFr_A4062598.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A4062598.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A4062598.Cinematic_Dialogue_Features.Timing
+  - DFr_EFC23072.Text
+  - DFr_EFC23072.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_B48A96FB.Text
+  - DFr_B48A96FB.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_B48A96FB.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_B48A96FB.Cinematic_Dialogue_Features.Timing
+  - DFr_2BAE7D0C.Text
+  - DFr_2BAE7D0C.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_2BAE7D0C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_576B8FFC.Text
+  - DFr_576B8FFC.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_576B8FFC.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_576B8FFC.Cinematic_Dialogue_Features.Timing
+  - DFr_76323A3D.Text
+  - DFr_76323A3D.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_76323A3D.Cinematic_Dialogue_Features.Timing
+  - DFr_18D5C406.Text
+  - DFr_18D5C406.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_18D5C406.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_18D5C406.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_18D5C406.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_19A2F308.Text
+  - DFr_19A2F308.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_19A2F308.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_19A2F308.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_19A2F308.Cinematic_Dialogue_Features.Timing
+  - DFr_5410F180.Text
+  - DFr_5410F180.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_5410F180.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_5410F180.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_5410F180.Cinematic_Dialogue_Features.Timing
+  - DFr_E4B1EC2A.Text
+  - DFr_E4B1EC2A.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E4B1EC2A.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_E4B1EC2A.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_E4B1EC2A.Cinematic_Dialogue_Features.Timing
+  - DFr_99F822C7.Text
+  - DFr_99F822C7.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_99F822C7.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_99F822C7.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_99F822C7.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_DDA65C73.Text
+  - DFr_DDA65C73.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_466513E4.Text
+  - DFr_466513E4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_466513E4.Cinematic_Dialogue_Features.Timing
+  - DFr_9FCC7042.Text
+  - DFr_9FCC7042.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_B49FEC8C.Text
+  - DFr_B49FEC8C.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_B49FEC8C.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_B49FEC8C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_B49FEC8C.Cinematic_Dialogue_Features.Timing
+  - DFr_1543834D.Text
+  - DFr_1543834D.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_1543834D.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_1543834D.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_1543834D.Cinematic_Dialogue_Features.Timing
+  - DFr_73CB23FE.Text
+  - DFr_73CB23FE.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_73CB23FE.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_73CB23FE.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_73CB23FE.Cinematic_Dialogue_Features.Timing
+  - DFr_BF81A980.Text
+  - DFr_BF81A980.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_BF81A980.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_BF81A980.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_BF81A980.Cinematic_Dialogue_Features.Timing
+  - DFr_9DFC39D3.Text
+  - DFr_9DFC39D3.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_9DFC39D3.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_E666A36F.Text
+  - DFr_E666A36F.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_E666A36F.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_C14BA31B.Text
+  - DFr_C14BA31B.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_C14BA31B.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_C14BA31B.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_9A483E33.Text
+  - DFr_9A483E33.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_AA37CFEC.Text
+  - DFr_AA37CFEC.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_AA37CFEC.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_AA37CFEC.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_685DE7A2.Text
+  - DFr_685DE7A2.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_B0E041DE.Text
+  - DFr_B0E041DE.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_B0E041DE.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_B0E041DE.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_B0E041DE.Cinematic_Dialogue_Features.Timing
+  - DFr_A07B4FA8.Text
+  - DFr_A07B4FA8.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A07B4FA8.Cinematic_Dialogue_Features.Timing
+  - DFr_3663BDB7.Text
+  - DFr_3663BDB7.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_D03B1724.Text
+  - DFr_D03B1724.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_E4AC165B.Text
+  - DFr_D893D811.Text
+  - DFr_D893D811.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_D893D811.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_D893D811.Cinematic_Dialogue_Features.Timing
+  - DFr_163FF94B.Text
+  - DFr_163FF94B.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_8C6E56D1.Text
+  - DFr_8C6E56D1.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_8C6E56D1.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_92FD9731.Text
+  - DFr_92FD9731.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_92FD9731.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_6D47C430.Text
+  - DFr_6D47C430.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_030125A4.Text
+  - DFr_030125A4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_6BCD9868.Text
+  - DFr_6BCD9868.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_6BCD9868.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_ADC5F94E.Text
+  - DFr_ADC5F94E.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_ADC5F94E.Cinematic_Dialogue_Features.Timing
+  - DFr_EEE36390.Text
+  - DFr_EEE36390.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_EEE36390.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_A641CDF2.Text
+  - DFr_A641CDF2.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_A641CDF2.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_2F88EE3A.Text
+  - DFr_2F88EE3A.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_2F88EE3A.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_2F88EE3A.Cinematic_Dialogue_Features.Timing
+  - DFr_1DC4A2D8.Text
+  - DFr_1DC4A2D8.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_1DC4A2D8.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_1DC4A2D8.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_1DC4A2D8.Cinematic_Dialogue_Features.Timing
+  - DFr_706C8DBE.Text
+  - DFr_706C8DBE.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_2B4E3B79.Text
+  - DFr_2B4E3B79.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_2B4E3B79.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_2326B86C.Text
+  - DFr_2326B86C.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_2326B86C.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_2326B86C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_332D39A2.Text
+  - DFr_332D39A2.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_B19B6153.Text
+  - DFr_B19B6153.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_647F2308.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_647F2308.Cinematic_Dialogue_Features.Facial_Idle_Loop
+  - DFr_E01AAFFB.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_105EBC87.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_FBFC2566.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_FD6FDA0D.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_FD6FDA0D.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_263D7E2C.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_263D7E2C.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_5308D9BF.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_5308D9BF.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_1CBEC1BF.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_1CBEC1BF.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_24E1557D.Text
+  - DFr_24E1557D.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_24E1557D.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_328A0774.Text
+  - DFr_328A0774.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_328A0774.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_0E68CBED.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_B1A8CB7D.Text
+  - DFr_B1A8CB7D.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_2B8D926A.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_41C7CFF7.Text
+  - DFr_41C7CFF7.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_41C7CFF7.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_AFE86E65.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_AFE86E65.Cinematic_Dialogue_Features.Body_Animation
   - DFr_D1FCA8F4.Text
   - DFr_F68CE430.Text
   - DFr_8114E5D8.Text
@@ -138,6 +429,7 @@ MonoBehaviour:
   - DFr_623A2381.Text
   - DFr_C902272F.Text
   - DFr_D41C8152.Text
+  - DFr_E1FE9E9A.Text
   - DFr_5C979ED8.Text
   - DFr_0E732EF0.Text
   - DFr_6252AF5B.Text
@@ -172,12 +464,58 @@ MonoBehaviour:
   - DFr_D10CFAF9.Text
   - DFr_0147AE52.Text
   - DFr_45F0FADD.Text
+  - DFr_F943A73A.Text
+  - DFr_F943A73A.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_F943A73A.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_F943A73A.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_737D69AF.Text
+  - DFr_737D69AF.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_737D69AF.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_73F69324.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_73F69324.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_989A0861.Text
+  - DFr_989A0861.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_5EADD8F9.Text
+  - DFr_5EADD8F9.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_AEC8A247.Text
+  - DFr_A54A97A4.Text
+  - DFr_A54A97A4.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_A54A97A4.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_64F5DF74.Text
+  - DFr_51C66B23.Text
+  - DFr_CDE7EA52.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_CDE7EA52.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_CDE7EA52.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_131649AA.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_131649AA.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_131649AA.Cinematic_Dialogue_Features.Performance_Notes
+  - DFr_131649AA.Cinematic_Dialogue_Features.Body_Animation
+  - DFr_281CEB65.Cinematic_Dialogue_Features.Camera_Directions
+  - DFr_281CEB65.Cinematic_Dialogue_Features.Audio_Notes
+  - DFr_4135E2ED.Text
+  - DFr_D40EE782.Text
+  - DFr_FCB310E0.Text
+  - DFr_3854B39E.Text
+  - DFr_4FCEADBA.Text
+  - DFr_C41D766F.Text
+  - DFr_87775DB0.Text
+  - DFr_0575BAAC.Text
+  - DFr_E7DB6454.Text
+  - DFr_9FEA3867.Text
+  - DFr_4A590C01.Text
+  - DFr_74ED0E9C.Text
+  - DFr_CE3C5C86.Text
+  - DFr_796C842B.Text
+  - DFr_FBCF6737.Text
+  - DFr_F554053B.Text
+  - DFr_A58E5C38.Text
   - Ntt_7EB912B5.DisplayName
   - Ntt_7EB912B5.Text
   - Ntt_3EF04DBA.DisplayName
   - Ntt_3EF04DBA.Text
   - Ntt_8853A4F6.DisplayName
   - Ntt_99D2BB04.DisplayName
+  - Ntt_D210867B.DisplayName
   mLocalizedStringsValues:
   - EXT. BOARDWALK - EVENING
   - INT. MASSAGE PARLOR - DAY
@@ -193,236 +531,832 @@ MonoBehaviour:
   - INT. CASINO - DAY
   - INT. POLICE STATION - EVENING
   - EXT. BOARDWALK - DAY
+  - INT. CHEN'S OFFICE - EVENING
   - 'Dialogue: Officer Mitch McLoughlin'
   - Lily
   - Jasmine
-  - '<align=left>Hey! Whitman!</align>
+  - Lily II
+  - Untitled dialogue
+  - Lieutenant Chen
+  - 'Hey! Whitman!
 
-    <align=left>Sergeant scraping the bottom
-    of the barrel today? Everyone else call in sick?</align>'
-  - <align=left>Not in the mood, McLoughlin.</align>
-  - <align=left>You going to fill me in or what?</align>
-  - <align=left>Tell me about it. Can you believe they'd let a screw-up like me off
-    his desk?</align>
-  - <align=left>Take it easy, man, I'm just giving you a hard time.</align>
-  - '<align=left>I''m fine, thanks for asking. Got some opportunities on the horizon,
-    maybe a little mentorship with Captain Bowerman. Had a hot date the other night.</align>
+    
 
-    <align=left>Man,
-    that desk made you boring fast. What''s it been, a couple of weeks?</align>'
-  - <align=left>Come on, man. You're a good cop. It could've happened to anybody.</align>
-  - <align=left>Sorry, I'm just tired of IA breathing down my neck. It's a miracle
-    I got out of there with only a stress-related perceptual disturbance on my report
-    card.</align>
-  - <align=left>Anonymous phone call. One of the neighbors, probably. Thinks there's
-    something "untoward" going on in the massage parlor.</align>
-  - <align=left>Untoward? Where'd you learn such a big word?</align>
-  - <align=left>No need to bullshit me, McLoughlin. I was bottom of my class at the
-    academy, I was benched for six weeks for a sketchy shoot, and I've failed my
-    sergeant exams twice. I'm the farthest thing from a good cop. I'm a wreck.</align>
-  - <align=left>I get it. You've caught the eye of leadership and now you're testing
-    the waters to see what you can get away with. I know you've been drinking with
-    Captain Bowerman.</align>
-  - <align=left>It's ok, I just need this case to go smoothly. Chief made it pretty
-    clear that I was damn lucky to get my gun back and that I need to be very, very
-    normal for the foreseeable future.</align>
-  - <align=left>Good God, that's a scary thought. I hope not.</align>
-  - '<align=left>Maybe you''re right. Maybe I''m just tired.</align>
+    Sergeant scraping the bottom of the barrel today?
+    Everyone else call in sick?'
+  - Not in the mood, McLoughlin.
+  - You going to fill me in or what?
+  - Tell me about it. Can you believe they'd let a screw-up like me off his desk?
+  - Take it easy, man, I'm just giving you a hard time.
+  - 'I''m fine, thanks for asking. Got some opportunities on the horizon, maybe a
+    little mentorship with Captain Bowerman. Had a hot date the other night.
 
-    <align=left>Sorry,
-    I should''ve asked: what''s up with you?</align>'
-  - <align=left>It's called being professional. I've got a job to do.</align>
-  - <align=left>Something like that. Frankly, I'm lucky to be back on the street
-    after what happened and now I want to just move on.</align>
-  - '<align=left>Six, actually. Seems like more, with IA breathing down my neck the
-    whole time. And let''s face it, I was always boring.</align>
+    
 
-    <align=left>Anyway,
-    now I just want to get back to work and forget it ever happened.</align>
+    Man,
+    that desk made you boring fast. What''s it been, a couple of weeks?'
+  - Come on, man. You're a good cop. It could've happened to anybody.
+  - Sorry, I'm just tired of IA breathing down my neck. It's a miracle I got out
+    of there with only a stress-related perceptual disturbance on my report card.
+  - Anonymous phone call. One of the neighbors, probably. Thinks there's something
+    "untoward" going on in the massage parlor.
+  - Untoward? Where'd you learn such a big word?
+  - No need to bullshit me, McLoughlin. I was bottom of my class at the academy,
+    I was benched for six weeks for a sketchy shoot, and I've failed my sergeant
+    exams twice. I'm the farthest thing from a good cop. I'm a wreck.
+  - I get it. You've caught the eye of leadership and now you're testing the waters
+    to see what you can get away with. I know you've been drinking with Captain Bowerman.
+  - It's ok, I just need this case to go smoothly. Chief made it pretty clear that
+    I was damn lucky to get my gun back and that I need to be very, very normal for
+    the foreseeable future.
+  - Good God, that's a scary thought. I hope not.
+  - 'Maybe you''re right. Maybe I''m just tired.
 
-    <align=left></align>'
-  - <align=left>Lighten up, Whitman. After what happened, you're lucky they don't
-    have you down on the sand cleaning up that whale carcass.</align>
-  - <align=left>Understood, we are all business today. Remind me to tell you about
-    the whale later.</align>
-  - <align=left>I get that. With the festival coming up, we're going to need all
-    the boots on the street we can get. Wonder if they'll be able to get rid of the
-    whale in time...</align>
-  - <align=left>Dude, that was the saddest thing I've ever heard. You need to get
-    your shit together or Molly is going to dump you. For real.</align>
-  - <align=left>Anyway, it's all in the past. Let's get you back on track. I want
-    to see</align>
-  - <align=left>It's going good, man. Had a good talk with Captain Bowerman. He likes
-    my work, wants to get me fast-tracked.</align>
-  - <align=left>Understood.</align>
-  - <align=left>Well, it's good to see you off the desk. What did they end up calling
-    it? Your... incident?</align>
-  - <align=left>Damn, dude.</align>
-  - <align=left>You wish! She's already seen me at my worst and she still said yes.
-    Nowhere to go but up.</align>
-  - <align=left>Third time's the charm or something.</align>
-  - <align=left>Sergeant. That's great. I'm sure you'll knock it out of the park.
-    Then you can tell me what I've been doing wrong.</align>
-  - <align=left>Fine, I'll bite. Tell me about the whale.</align>
-  - <align=left>Also, for the record, IA decided it was a stress-related perceptual
-    disturbance.</align>
-  - <align=left>Perceptual disturbance. Stress-related.</align>
-  - <align=left>Could be worse. I talked them down from trauma-induced transient
-    psychotic episode.</align>
-  - <align=left>Ok. I'm going in. Stay off your phone.</align>
-  - <align=left>Yeah, but your gut also thought it was a good idea to combine Don
-    Quitaco's and The Rusty Chum Drum on a stakeout.</align>
-  - <align=left>Ah... the Bermuda Fryangle...</align>
-  - <align=left>Big old gray thing. Washed up down by the Ghost Forest a couple of
-    days ago. Bones sticking out, meat and skin hanging off like rags. The tourists
-    are going to love it.</align>
-  - <align=left>What whale?</align>
-  - <align=left>Washed up south of the Ghost Forest a couple of days ago. Smells
-    like the pit of hell. Nobody knows what to do with it.</align>
-  - <align=left>So what's the story here?</align>
-  - <align=left>You'll get there. Fifty bucks says you pass your exams before the
-    wedding. Third time's the charm, right?</align>
-  - <align=left>That's the spirit.</align>
-  - '<align=left>Yeah... </align>
+    
 
-    <align=left>You don''t know how good you''ve
-    got it, Whitman. I call dibs if you get killed in the line of duty.</align>'
-  - <align=left>You're not her type.</align>
-  - <align=left>Jacked?</align>
-  - <align=left>Illiterate.</align>
-  - <align=left>Get in line.</align>
-  - <align=left>Not my fault if he likes officers he can count on not to have a psychotic
-    episode in the middle of a DV call.</align>
-  - <align=left>You're probably right. And it looks like you'll probably make sergeant
-    before me. But until then, I'm still Senior Patrol Officer. So let's keep it
-    professional.</align>
-  - <align=left>Damn, dude!</align>
-  - <align=left>Yeah. Chief made it clear I'm still on thin ice. Need things to be
-    very, very normal for a while.</align>
-  - <align=left>That doesn't sound too bad. At least you're not psycho.</align>
-  - <align=left>Understood.</align>
-  - <align=left>Yeah. I keep telling myself that.</align>
-  - <align=left>Fingers crossed this one's just a false alarm.</align>
-  - <align=left>Enough talk, McLoughlin. Tell me what we're dealing with here.</align>
-  - <align=left>So you were first on the scene. What can you tell me about the situation?</align>
-  - <align=left>No need. The two of us have a connection. A spiritual connection.
-    Ours is a love that transcends time, space, tax bracket, reading level, tastes
-    in food and music...</align>
-  - <align=left>I'm going in. Make sure no one goes in or out.</align>
-  - <align=left>I'm going in. Watch my back.</align>
-  - <align=left>They had to run the ionizer in that vehicle for three  days, McLoughlin.</align>
-  - <align=left>What's your point?</align>
-  - <align=left>We don't get paid to have hunches. Look at the facts, work the case.</align>
-  - <align=left>Yeah, that makes sense. I did see a G-Wagon pull out of here pretty
-    quick just as I rolled in. That might be something.</align>
-  - <align=left>Hey, I read books. Anyway, their words not mine.</align>
-  - <align=left>Lots of time to speculate later. Just stick to the facts, ok? </align>
-  - <align=left>You think it's a false alarm?</align>
-  - <align=left>Let's see... I saw a G-Wagon pull out of here pretty quick when I
-    rolled in. Otherwise, it's been pretty quiet. Monday night at the beach, not
-    a lot going on.</align>
-  - <align=left>Just seems like a cliche, like something you'd see on TV. Sketchy
-    Asian massage parlor? Come on, is that even a thing?</align>
-  - <align=left>I'm on it.</align>
-  - <align=left>No problem.</align>
-  - <align=left>Yeah, yeah.</align>
-  - <align=left>I'll keep it in mind. Did you go inside yet?</align>
-  - <align=left>Just for a second. There's definitely a bunch of Asian ladies in
-    there. They didn't seem real happy to see me.</align>
-  - <align=left>Did they say why?</align>
-  - '<align=left>Dispatch said something about men coming at weird hours, whatever
-    that means, and how they never see the workers outside.</align>
+    Sorry, I should''ve
+    asked: what''s up with you?'
+  - It's called being professional. I've got a job to do.
+  - Something like that. Frankly, I'm lucky to be back on the street after what happened
+    and now I want to just move on.
+  - 'Six, actually. Seems like more, with IA breathing down my neck the whole time.
+    And let''s face it, I was always boring.
 
-    <align=left>What''s
-    the word for someone who works at a massage place? Masseuse? Masseur? Massager?</align>'
-  - <align=left>Massage therapist?</align>
-  - '<align=left>That doesn''t sound right.</align>
+    
 
-    <align=left>Anyway, my gut
-    tells me it''s just some paranoid middle-aged white lady who watches too much
-    SVU.</align>'
-  - <align=left>Welcome in! Is this your first time?</align>
-  - <align=left>Officer Whitman, Skookum City Police. Good morning.</align>
-  - <align=left>Hello, Officer. What can I do for you? Is it the neck? You look like
-    you carry stress in your neck. Maybe your jaw.</align>
-  - <align=left>This will be a lot easier if you don't play games with me, ok? I
-    have some questions for you.</align>
-  - <align=left>We're here to talk about you.</align>
-  - <align=left>No, thank you, I'm fine. I would like to hear about you, though.</align>
-  - <align=left>Me? What do you want to know?</align>
-  - <align=left>It's ok, Officer, you're just doing your job.</align>
-  - <align=left>Not here. Doing laundry.</align>
-  - <align=left>Yes, from one of my regular clients.</align>
-  - <align=left>Don't play dumb. What's going on in here?</align>
-  - <align=left>We've had some complaints about this place. Just </align>
-  - <align=left>Do you like working here?</align>
-  - <align=left>I assume you have a license or something?</align>
-  - <align=left>Of course he is. And I assume you have no idea when he'll be back,
-    if ever?</align>
-  - <align=left>When will he be back?</align>
-  - <align=left>Miss. He's not here. It's safe to tell me the truth. Is he making
-    you do this?</align>
-  - <align=left>Miss, this is clearly not a normal massage parlor! Tell me the truth.</align>
-  - <align=left>Is that normal?</align>
-  - <align=left>Very generous.</align>
-  - <align=left>It's a massage parlor. We give massages.</align>
-  - <align=left>That's all?</align>
-  - <align=left>Best job I ever had.</align>
-  - <align=left>Don't I look ok? </align>
-  - <align=left>What did you have in mind?</align>
-  - <align=left>You see anything wrong?</align>
-  - <align=left>Not really. So... your clients don't try to... take advantage of
-    you?</align>
-  - <align=left>Your clients never try to take advantage of you?</align>
-  - <align=left>Take advantage? What is this? 1800s? No, no, nothing like that. This
-    is a good business.</align>
-  - <align=left>Massages. Hard, soft, neck, back. Feet.</align>
-  - <align=left>That's all? Your clients never try to take advantage of you?</align>
-  - <align=left>Sorry, I have to ask.</align>
-  - <align=left>Officer, it might not look like it, but I have had a very hard life.
-    I have nothing to complain about here. And I have no reason to leave.</align>
-  - <align=left>License?</align>
-  - <align=left>To work as a massage therapist... or whatever you call yourself.</align>
-  - <align=left>Oh, of course.</align>
-  - <align=left>I'd like to see it, please.</align>
-  - <align=left>I'm sorry, our manager keeps all those things.</align>
-  - <align=left>Go get your massage therapist's license right now, or I will have
-    this place shut down by end of day tomorrow.</align>
-  - <align=left>I have trouble believing that.</align>
-  - <align=left>Do you realize how improbable that sounds?</align>
-  - <align=left>I can't, they're all locked up in our manager's office at the back.
-    To keep them safe.</align>
-  - <align=left>To keep them safe? Or keep you working here against your will?</align>
-  - <align=left>Is that not normal?</align>
-  - <align=left>Sorry, Officer, it's the way it is. Manager keeps them locked up
-    in his office for safety.</align>
-  - <align=left>It's your license. It belongs to you.</align>
-  - <align=left>What if you want to leave?</align>
-  - <align=left>Why would I want to leave?</align>
-  - <align=left>I don't need it. Anyway, I trust our him. We're very close. He takes
-    good care of me.</align>
-  - <align=left>Fine. Just get me your manager, then.</align>
-  - <align=left>Sorry. He is the manager, not me.</align>
-  - <align=left>He didn't tell me. Laundry can take a very long time.</align>
-  - <align=left>No one is making me do this! I like my job. They pay me well, I am
-    safe, I have a place to sleep. I don't need anybody to save me.</align>
-  - <align=left>That's enough, Jasmine. You can go.</align>
-  - <align=left>Those your things?</align>
-  - <align=left>I'm very good.</align>
-  - <align=left>I've only ever worked here.</align>
-  - <align=left>At least give me your manager's name.</align>
-  - <align=left>John? Johnny? Something like that.</align>
-  - <align=left>Last name?</align>
-  - <align=left>No last names here. Very friendly, very informal.</align>
-  - <align=left>You clearly have not had my massage.</align>
-  - <align=left>Have a lovely day, Officer.</align>
+    Anyway, now I just want
+    to get back to work and forget it ever happened.'
+  - Lighten up, Whitman. After what happened, you're lucky they don't have you down
+    on the sand cleaning up that whale carcass.
+  - Understood, we are all business today. Remind me to tell you about the whale
+    later.
+  - I get that. With the festival coming up, we're going to need all the boots on
+    the street we can get. Wonder if they'll be able to get rid of the whale in time...
+  - Dude, that was the saddest thing I've ever heard. You need to get your shit together
+    or Molly is going to dump you. For real.
+  - Anyway, it's all in the past. Let's get you back on track. I want to see
+  - It's going good, man. Had a good talk with Captain Bowerman. He likes my work,
+    wants to get me fast-tracked.
+  - Understood.
+  - Well, it's good to see you off the desk. What did they end up calling it? Your...
+    incident?
+  - Damn, dude.
+  - You wish! She's already seen me at my worst and she still said yes. Nowhere to
+    go but up.
+  - Third time's the charm. Or something.
+  - Sergeant. That's great. I'm sure you'll knock it out of the park. Then you can
+    tell me what I've been doing wrong.
+  - Fine, I'll bite. Tell me about the whale.
+  - And, for the record, IA decided it was a stress-related perceptual disturbance.
+  - Perceptual disturbance. Stress-related.
+  - Could be worse. I talked them down from trauma-induced transient psychotic episode.
+  - Ok. I'm going in. Stay off your phone.
+  - Yeah, but your gut also thought it was a good idea to combine Don Quitaco's and
+    The Rusty Chum Drum on a stakeout.
+  - Ah... the Bermuda Fryangle...
+  - Big old gray thing. Washed up down by the Ghost Forest a couple of days ago.
+    Bones sticking out, meat and skin hanging off like rags. The tourists are going
+    to love it.
+  - What whale?
+  - Washed up south of the Ghost Forest a couple of days ago. Smells like the pit
+    of hell. Nobody knows what to do with it.
+  - So what's the story here?
+  - You'll get there. Fifty bucks says you pass your exams before the wedding. Third
+    time's the charm, right?
+  - That's the spirit.
+  - "Yeah... \r\n\r\nYou don't know how good you've got it, Whitman. I call dibs
+    if you get killed in the line of duty."
+  - You're not her type.
+  - Jacked?
+  - Illiterate.
+  - Get in line.
+  - Not my fault if he likes officers he can count on not to have a psychotic episode
+    in the middle of a DV call.
+  - You're probably right. And it looks like you'll probably make sergeant before
+    me. But until then, I'm still Senior Patrol Officer. So let's keep it professional.
+  - Damn, dude!
+  - Yeah. Chief made it clear I'm still on thin ice. Need things to be very, very
+    normal for a while.
+  - That doesn't sound too bad. At least you're not psycho.
+  - Understood.
+  - Yeah. I keep telling myself that.
+  - It's good to have you back.
+  - Fingers crossed this one's just a false alarm.
+  - Enough talk, McLoughlin. Tell me what we're dealing with here.
+  - So you were first on the scene. What can you tell me about the situation?
+  - No need. The two of us have a connection. A spiritual connection. Ours is a love
+    that transcends time, space, tax bracket, reading level, tastes in food and music...
+  - I'm going in. Make sure no one goes in or out.
+  - I'm going in. Watch my back.
+  - They had to run the ionizer in that vehicle for three days, McLoughlin.
+  - What's your point?
+  - We don't get paid to have hunches. Look at the facts, work the case.
+  - Yeah, that makes sense. I did see a G-Wagon pull out of here pretty quick just
+    as I rolled in. That might be something.
+  - Hey, I read books. Anyway, their words not mine.
+  - Lots of time to speculate later. Just stick to the facts, ok?
+  - You think it's a false alarm?
+  - Let's see... I saw a G-Wagon pull out of here pretty quick when I rolled in.
+    Otherwise, it's been pretty quiet. Monday night at the beach, not a lot going
+    on.
+  - Just seems like a cliche, like something you'd see on TV. Sketchy Asian massage
+    parlor? Come on, is that even a thing?
+  - I'm on it.
+  - No problem.
+  - Yeah, yeah.
+  - I'll keep it in mind. Did you go inside yet?
+  - Just for a second. There's definitely a bunch of Asian ladies in there. They
+    didn't seem real happy to see me.
+  - Did they say why they thought that?
+  - 'Dispatch said something about men coming at weird hours, whatever that means,
+    and how they never see the workers outside.
+
+    
+
+    What''s the word for
+    someone who works at a massage place? Masseuse? Masseur? Massager?'
+  - Massage therapist?
+  - 'That doesn''t sound right.
+
+    
+
+    Anyway, my gut tells me it''s just some
+    paranoid middle-aged white lady who watches too much SVU.'
+  - whitman understands what happened
+  - whitman uses her name
+  - lily opens up
+  - assistant manager not the ultimate bad guy here
+  - another manager - key information
+  - lily leaves
+  - You ok, Whitman?
+  - Dizzy spell. Vertigo or something. I'm fine.
+  - So, was I right?
+  - About what?
+  - 'I''m fine. Just felt weird in there. Essential oils or something.
+
+    
+
+    Keep
+    this between us, ok? I don''t want the Chief getting the wrong idea.'
+  - I think so. What about you? Did you feel anything weird just now?
+  - Nothing. Quiet as the grave.
+  - Weird.
+  - Ok. No problem.
+  - My hunch.
+  - I don't know. There's definitely something weird going on in there.
+  - Too soon to tell. Got any other suggestions?
+  - 'You don''t have a sixth sense, McLoughlin! None of us do.
+
+    
+
+    Now,
+    have you seen anything useful out here or not?'
+  - Most of these places are closed down for the day, but there's a pawn shop and
+    a convenience store still open. Maybe check with whoever's running the registers?
+  - Worth a shot. Let's see what they know.
+  - Well? She answered your questions. Was there something else?
+  - 'Lily raises her eyebrows skeptically.
+
+    
+
+'
+  - Underneath, Lily feels tired, world weary, beaten down, trapped. On the surface,
+    she's just kind of annoyed with Whitman right now.
+  - She leans up against the wall just inside the door, crosses her arms, and waits
+    a moment before speaking.
+  - I need the truth, Lily.
+  - I want to see the two characters in relation to each other in the space while
+    the player makes this dialogue decision. Lily on the left side of the frame,
+    Whitman on the right.
+  - In the brief silence, it might be good to hear some faint laughter from somewhere
+    else in the massage parlor, suggesting that there are other ladies here.
+  - Whitman and Lily are sizing each other up. Whitman's frustration is growing and
+    he thinks for a moment while trying to figure out a different angle.
+  - Whitman probably runs his hands through his hair in frustration or rubs his temples
+    or something similar.
+  - Long pause while Whitman chooses his next words.
+  - You've already heard it. We are all very happy here and we do not need your help.
+  - All business, very firm.
+  - Standing up straight, her back off the wall now.
+  - I need you all to stop lying to me.
+  - I want to see the two characters in relation to each other in the space while
+    the player makes this dialogue decision. Lily on the left side of the frame,
+    Whitman on the right.
+  - In the brief silence, it might be good to hear some faint laughter from somewhere
+    else in the massage parlor, suggesting that there are other ladies here.
+  - Whitman and Lily are sizing each other up. Whitman's frustration is growing and
+    he thinks for a moment while trying to figure out a different angle.
+  - Whitman probably runs his hands through his hair in frustration or rubs his temples
+    or something similar.
+  - Long pause while Whitman chooses his next words.
+  - Lily, listen. He's not here. You can tell me what's going on. We can help you.
+  - I want to see the two characters in relation to each other in the space while
+    the player makes this dialogue decision. Lily on the left side of the frame,
+    Whitman on the right.
+  - In the brief silence, it might be good to hear some faint laughter from somewhere
+    else in the massage parlor, suggesting that there are other ladies here.
+  - Whitman and Lily are sizing each other up. Whitman's frustration is growing and
+    he thinks for a moment while trying to figure out a different angle.
+  - Whitman probably runs his hands through his hair in frustration or rubs his temples
+    or something similar.
+  - Long pause while Whitman chooses his next words.
+  - I'm sorry, that does not happen at a normal massage place.
+  - Gesturing to the southwest corner of the room, where Jasmine's gifts are piled
+    up.
+  - Whitman stands back and watches as Lily heads for the door.
+  - 
+  - Whitman steps in between Lily and the door, maybe puts out a hand to slow her
+    down.
+  - Whitman takes a seat on the stool by the bed and crosses his arms. No pressure,
+    no rush.
+  - You in charge here?
+  - Firm but not angry. Trying to take a strong tone with her right out of the gate
+    to make it clear who's in charge and hopefully get her to be more forthright
+    throughout rest of conversation.
+  - Curious. Studying her. Lily is a new opportunity to get information about this
+    place. Maybe she'll be more helpful than Jasmine was.
+  - 
+  - And you are?
+  - All business. Straight to the point.
+  - Curious. Studying her. Lily is a new opportunity to get information about this
+    place. Maybe she'll be more helpful than Jasmine was.
+  - I'm Officer Whitman. What's your name?
+  - Gentle, sympathetic, trying to put her at ease as much as possible.
+  - Curious. Studying her. Lily is a new opportunity to get information about this
+    place. Maybe she'll be more helpful than Jasmine was.
+  - Lily.
+  - Lily's close up should be a profile shot at this point in the conversation, probably
+    from her right side, maybe with the wall art over the bed in the background.
+    I want her to feel closed off, not open, half of her self hidden, evoking the
+    sense of all that she's keeping secret. A straight on close up will feel too
+    open and honest at this stage, I think.
+  - For a moment, it almost looks like she's going to say something else. Sadness
+    and regret passes over her face.
+  - Brief pause before the line, like she has to think about it for a second.
+  - Not even close.
+  - Lily's close up should be a profile shot at this point in the conversation, probably
+    from her right side, maybe with the wall art over the bed in the background.
+    I want her to feel closed off, not open, half of her self hidden, evoking the
+    sense of all that she's keeping secret. A straight on close up will feel too
+    open and honest at this stage, I think.
+  - Lily laughs bitterly and shakes her head.
+  - What do you do here?
+  - Stay on Lily.
+  - 'Whitman is making an effort to sound conversational, relaxed.
+
+    
+
+    Lily
+    softens slightly in response. Not quite so rigid.'
+  - Maybe she shifts against the wall and lets her shoulder sag a little bit.
+  - Unhurried. Maybe a little pause before Whitman's line.
+  - Same as everybody else. But I've been here the longest, so I try to look after
+    the other girls. Help them settle in.
+  - She looks away and shrugs for a moment before answering.
+  - She looks away and shrugs for a moment before answering.
+  - Slight pause before the line.
+  - Lily.
+  - Lily's close up should be a profile shot at this point in the conversation, probably
+    from her right side, maybe with the wall art over the bed in the background.
+    I want her to feel closed off, not open, half of her self hidden, evoking the
+    sense of all that she's keeping secret. A straight on close up will feel too
+    open and honest at this stage, I think.
+  - I said, did you need something else?
+  - Renewed calm and determination. Looking Whitman straight in the eye. Challenging
+    him a bit.
+  - She's starting to get fed up with this guy. Less tired, a little more determined
+    and defensive now.
+  - Maybe hands on hips now, at least her left hand. Right hand starting to tap her
+    leg in slowly growing impatience.
+  - No pause after her previous line. Should flow right into this one.
+  - Are you in charge?
+  - Stay on Lily.
+  - I just work here.
+  - Gentle shake of the head.
+  - Then why did Jasmine listen to you?
+  - Quick cut back to Whitman.
+  - Challenging her, trying to get the truth from her.
+  - Right on the heels of Lily's line, almost no pause.
+  - Because you were harassing her and she wanted out. We take care of each other
+    here.
+  - And cut back to Lily just as quick.
+  - Whitman's confrontational tone sparks flash of annoyance in Lily. She's got some
+    spirit left, even if it's hidden pretty deep. The moment is brief, though. By
+    the time she says "We take care of each other here", she just sounds tired again.
+  - Gestures at Whitman in annoyance on "you were harassing her".
+  - She comes right back at him pretty quickly. Then pauses before she says "We take
+    care of each other..."
+  - What's your name?
+  - 
+  - Quick thoughtful frown from Whitman. That didn't work the way he wanted it to.
+    He looks down for a moment, then tries another tack.
+  - 
+  - Pause before line as Whitman gathers his thoughts.
+  - Lily.
+  - Oh, I see. Cute Asian girls at a massage parlor must be prostitutes.
+  - Annoyed, defensive, sarcasm. Whitman is hitting close to home and she needs to
+    throw him off.
+  - I think Lily probably stands up straight now, her back off the wall, gesturing
+    angrily with both hands.
+  - 'I have nothing more to say. This place is exactly what it appears to be: a normal
+    massage parlor.'
+  - She hesitates, then takes a quick, fearful glance around the room, maybe at the
+    ceiling or the far upper corners, like they might be hiding cameras.
+  - 
+  - Hesitation before she speaks.
+  - Then explain all of that!
+  - Gesturing to the southwest corner of the room, where Jasmine's gifts are piled
+    up.
+  - She's very good. He comes back every week.
+  - Lily pauses, thinks, then shrugs. She dismisses your observation almost flippantly.
+  - Lily pauses, thinks, then shrugs.
+  - Shrug first, then line.
+  - Doesn't all of that bother you at all?
+  - Trying to coax a response out of her.
+  - Gesturing to the southwest corner of the room, where Jasmine's gifts are piled
+    up.
+  - Why should it? Sometimes clients tip big. Sometimes they think they are in love
+    with you. It happens to all of us.
+  - A grimace crosses Lily's face before she can stop herself. She shrugs, but it
+    clearly does bother her.
+  - A grimace crosses Lily's face before she can stop herself. She shrugs, but it
+    clearly does bother her.
+  - Shrug first, then line.
+  - Do you go to a lot of massage parlors, Officer? Sometimes clients tip. Sometimes
+    they tip big.
+  - Lily pointedly does not look at the gifts. Not impressed with your observation.
+  - Comes right back at Whitman. Not rattled or daunted at all.
+  - Isn't this the Spiritwood logo?
+  - Switch to second set of camera set ups.
+  - His attention stays on the gifts, I think. Doesn't look up yet.
+  - Thinking hard, trying to figure out how to get the information he needs out of
+    Lily. This is a real challenge for him.
+  - 'Whitman is bent over (or crouching or kneeling or something), studying one of
+    the gifts. '
+  - I want his name.
+  - I think the anger here is heartfelt, but directed at the client, not Lily. He's
+    not trying to intimidate her as a tactic; he genuinely hates men who hurt women
+    in this way. He's trying to keep it under control, but it still comes through
+    in his face and his voice.
+  - I suspect Whitman's baseline is moving towards a low level simmering anger at
+    those who did this to Lily and Jasmine.
+  - Whitman stands up before he speaks. Maybe a clenched fist by his side as he tries
+    to keep his anger under control.
+  - Pause as Whitman stands up before speaking.
+  - What can you tell me about him?
+  - Keeping his anger under better control here.
+  - I suspect Whitman's baseline is moving towards a low level simmering anger at
+    those who did this to Lily and Jasmine.
+  - Whitman stands up and turns to face Lily.
+  - Pause while he stands up and turns to face Lily.
+  - You have any clients like that?
+  - I'd like to see anger on his face for a moment before he masters himself and
+    calms down enough to speak gently. Probably a shake of the head as he tries to
+    get his feelings under control. When he does speak, though, it is calm.
+  - I suspect Whitman's baseline is moving towards a low level simmering anger at
+    those who trafficked Lily and Jasmine.
+  - Whitman stands up, but has trouble looking straight at Lily because he's pretty
+    upset about this situation. A fist clenched by his side, possibly.
+  - Longer pause here. Whitman stands up and then needs a moment to get his anger
+    under control before he can speak gently to Lily.
+  - I guess so. That client always comes with vouchers from the casino.
+  - Again, this is a new wide shot.
+  - Lily is careful to remain non-committal.
+  - Getting bored.
+  - She turns to watch Whitman.
+  - What, throwing shiny toys at everybody and driving around in a car that sounds
+    like it's going sixty when it's going twenty-five in the parking lot? Those types
+    prefer Jasmine. Fine by me.
+  - Jasmine snorts in derision before answering. This is the closest she's gotten
+    to a smile. Maybe just a smirk. She actually finds this a little bit funny, in
+    a pathetic way.
+  - Always comes at the same time. I know when he's here because his stupid car always
+    shakes the windows.
+  - Maybe her eyes drift up and away and her head tilts for just moment as she thinks
+    if there's anything she can safely tell Whitman.
+  - Pause as Lily thinks for a second before answering.
+  - You have a warrant?
+  - Lily is not impressed.
+  - Can we wrap this up? I'm very tired and I've still got a few things to do before
+    my shift is over.
+  - 'Lily suddenly looks more tired than ever. '
+  - Whatever Lily was feeling before is replaced by a baseline of utter weariness.
+  - As her body language sags, she goes to sit on the edge of the bed.
+  - She goes to sit on the edge of the bed before she speaks.
+  - You ever sleep here?
+  - Whitman is speaking, but the camera is on Lily.
+  - Lily watches Whitman pace. Maybe she looks away in boredom for a moment right
+    before he speaks.
+  - 
+  - Pause before Whitman speaks.
+  - What do you know about people living here, in the building?
+  - Even though Whitman speaks in this shot, the camera is on Lily.
+  - Lily watches Whitman pace. Maybe she looks away in boredom for a moment right
+    before he speaks.
+  - 
+  - Pause as Whitman paces back and forth before speaking.
+  - Do you have a safe place to stay?
+  - Whitman is speaking, but camera is on Lily.
+  - Lily watches Whitman pace. Maybe she looks away in boredom for a moment right
+    before he speaks.
+  - 
+  - Pause as Whitman paces before speaking.
+  - Once in a while, maybe, if I have to stay very late or start very early.
+  - Camera stays on Lily.
+  - Lily shrugs.
+  - I'm... staying with a friend right now. Getting my own place soon, though.
+  - Camera stays on Lily, but moves in for a close up. Close up should be somewhere
+    between profile and 3/4. She's opening up slightly, a little less closed off,
+    but still not fully open.
+  - Some hesitation. She's treading on dangerous ground here, has to be careful what
+    she says.
+  - That sounds like one of our crazy neighbors talking. They are all jealous because
+    we do good business. They come and go, but we've been here seven years now. There's
+    nine of us, all busy, all the time.
+  - Camera still on Lily, then cuts to Whitman on "There's nine of us..."
+  - A short, derisive laugh before she speaks.
+  - Whitman has stopped pacing to listen.
+  - And what about the other ladies?
+  - Whitman pauses in his pacing.
+  - I'm not the manager, how should I know?
+  - Camera stays on Whitman through Lily's dialogue.
+  - Whitman frowns at Lily's answer, starts pacing again.
+  - Since it's an over the shoulder shot, we can see Lily shrug as she responds.
+  - And what about the other ladies?
+  - Whitman pauses in his pacing.
+  - They take very good care of us here, ok? We have everything we need.
+  - Camera retreats, she's more closed off again.
+  - She looks down or away. Flash of frustration crosses her face. Annoyed with herself
+    for opening up slightly.
+  - Leans back a little, crosses her arm. On the defensive.
+  - Pause before speaking. Emotions play across her face first.
+  - How many other, uh, therapists work here?
+  - Whitman paces a few more steps before pausing to speak again.
+  - Pause before line.
+  - How many of you are there?
+  - Whitman is trying to push the momentary advantage he had, but we can tell that
+    the moment has passed and it's slipping away. This conversation is all but over.
+  - Nine, right now, I think.
+  - Lily has checked out of this conversation and is looking for an exit ramp.
+  - Nine, right now. They come and go. A few every year.
+  - Well, you're clearly grasping at straws now, so I'm going to go. Please don't
+    bother us again.
+  - Lily is done. What a waste of time.
+  - Lily puts her hands on the bed to get ready to rise, then actually rises on "Please
+    don't bother us again."
+  - A half-second pause as Lily waits to see if Whitman has anything better to say.
+  - Look, I'm going to go. I'm sure you've got more important things to do. I trust
+    you can find your way out.
+  - Lily rises to go during the last sentence of the line.
+  - Listen, I really have to go now. Don't worry about us.
+  - Lily is trying to put this as kindly as possible, but she really wants out of
+    this conversation.
+  - Lily gets ready to stand, maybe puts her hands on the bed or on her knees like
+    she's getting ready to push herself up, then actually stands on "Don't worry
+    about us".
+  - What do you think you're doing?
+  - Really annoyed by this.
+  - She bats Whitman's hand aside.
+  - Lily, you don't have to do this.
+  - Whitman takes a step back and raises his hands about chest height, palms out,
+    in a placating gesture, as if to say "Take it easy, I'm not going to hurt you".
+  - Get out of my way.
+  - Pretty angry.
+  - Does your family know where you are?
+  - Whitman is flailing now. He's lost control of this situation and is just throwing
+    everything at the wall to see if something sticks.
+  - Still backing up slowly? Maybe takes another step back as Lily presses forward?
+  - My family couldn't care less. Now move.
+  - Angry, bitter, hard.
+  - Without hesitation, copmletely confident in the truth of this statement.
+  - You're not a very good cop, are you?
+  - She gives Whitman a funny look. A mixture of surprise, pity, and disdain.
+  - After she stands, Lily pauses and turns to look at Whitman.
+  - Does your family know where you are?
+  - New angle on the characters, since they've both changed positions.
+  - Relaxed, conversational. Whitman is taking a very hands-off approach here.
+  - They couldn't care less about me.
+  - 'This brings up painful memories for Lily. '
+  - She's still turned half toward the door. Wants to leave, but something is holding
+    her back. After her line, she takes another half step toward the door.
+  - It's a second before she can answer.
+  - I promise you that's not true. What did you do before this?
+  - Stay on Lily for the first sentence so we can see her reaction. Then cut over
+    to Whitman on "What did you..."
+  - 'Lily''s face hardens when Whitman answers, putting up emotional walls.
+
+    
+
+    Whitman
+    is heartfelt, sad. He''s almost given up here. This is such a sad situation and
+    it seems like there''s nothing he can do.'
+  - 'Lily hovers on edge of indecision.
+
+    
+
+    I''m thinking Whitman''s hands
+    are hanging down loosely between his legs. He feels pretty helpless. Maybe he
+    looks down at the floor and shakes his head slightly in between sentences.'
+  - First sentence comes hard on the heels of the previous. Whitman is thinking about
+    his words, it just comes right out of his heart. Then pause and he thinks about
+    what to say next.
+  - And what about the families of the other girls here?
+  - Calling after Lily as she sweeps from the room.
+  - My family is better off without me.
+  - A flash of resentment and anger passes over Lily's face. She lashes out.
+  - ' As soon as the words are out, Lily turns and leaves the room in a rush.'
+  - You don't have to do this, Lily.
+  - 'The world starts to tilt and blur as Insight kicks in.
+
+    
+
+    Cut to Whitman''s
+    consternation.'
+  - Whitman's expression in the close up is "Crap, not again".
+  - 
+  - School. For nursing.
+  - Lily doesn't know why she's continuing to talk to this guy.
+  - You could do that again.
+  - Whitman's eyes are pleading with her. This is his last ditch effort.
+  - Maybe a very slow push in on Lily while you choose your next words.
+  - Lily is probably defaulting to growing impatience now. She just wants to get
+    this over with as quickly as possible.
+  - Insert of Jasmine's gifts piled in the corner.
+  - Insert of Jasmine's gifts piled in the corner.
+  - Insert of Jasmine's gifts piled in the corner.
+  - New angle on the scene.
+  - Whitman crosses to examine Jasmine's gifts up close. Maybe he bends over to study
+    one of the handbags or a bottle of perfume. Not sure if it's practical for him
+    to pick something up.
+  - Thinking hard. He knows he's running out of chances with Lily.
+  - Whitman starts to pace, thinking hard about what to say next.
+  - Camera starts wide, on both characters, then cuts to Whitman as he decides what
+    to do.
+  - Lily turns and starts to walk away.
+  - 'The thoughts going through Lily''s head are something like: "What is this guy
+    doing? What kind of cop is this?"'
+  - Lily pauses by the door and looks back at Whitman funny.
+  - 
+  - 'As Lily pushes past Whitman, the world starts to tilt and blur.
+
+    
+
+    Cut
+    to close up of Whitman''s consternation.
+
+    
+
+    Cut to next shot just as
+    he turns to look at Lily.'
+  - Lily pushes past Whitman and heads for the door. Whitman grows disoriented, starts
+    to lose his balance, puts out his hands to steady himself. He turns to look at
+    Lily.
+  - Go home, Officer. You don't know what you're dealing with.
+  - 'Camera low to the ground, I think, so that the frame is dominated by the shadows
+    Lily is casting back toward Whitman.
+
+    
+
+    When she pauses in the doorway,
+    she is silhouetted against the light beyond.'
+  - 'Lily is walking towards the door, casting two shadows back across the floor
+    toward Whitman.
+
+    
+
+    One shadow is clearly hers.
+
+    
+
+    The other
+    shadow is definitely not hers. It is the shadow of a man wearing a crown of crooked
+    sticks and a heavy shroud around his shoulders. He holds a bundle of keys in
+    one hand and a coil of rope in the other.
+
+    
+
+    Lily pauses in the door
+    and looks back over her shoulder.'
+  - 'The world tilts and blurs further as Whitman loses his balance and stumbles
+    to the ground.
+
+    
+
+    Cut to Inisght camera again, as Lily leaves the room,
+    followed by her two shadows.'
+  - Go home, Officer. You don't know what you're dealing with.
+  - 'Lily is walking towards the door, casting two shadows back across the floor
+    toward Whitman.
+
+    
+
+    One shadow is hers.
+
+    
+
+    The other shadow
+    is definitely not hers. It is the shadow of a man wearing a crown of crooked
+    sticks and a heavy shroud around his shoulders. He holds a bundle of keys in
+    one hand and a coil of rope in the other.
+
+    
+
+    Lily pauses in the doorway
+    and looks back at you over her shoulder.'
+  - 'The world tilts and blurs further as Whitman loses his balance and stumbles
+    to the ground.
+
+    
+
+    Cut to Inisght camera again, as Lily leaves the room,
+    followed by her two shadows.'
+  - Go home, Officer. We're not worth your time.
+  - Camera low to the ground, I think, so that the frame is dominated by the shadows
+    Lily is casting back toward Whitman.
+  - 'Lily is standing in the doorway, casting two shadows back across the floor toward
+    Whitman.
+
+    
+
+    One shadow is clearly hers.
+
+    
+
+    The other shadow
+    is definitely not hers. It is the shadow of a man wearing a crown of crooked
+    sticks and a heavy shroud around his shoulders. He holds a bundle of keys in
+    one hand and a coil of rope in the other.'
+  - 'Wide shot, probably, as Lily reappears in the doorway.
+
+    
+
+    Then quick
+    cut to Whitman''s close up as world starts to tilt and blur around him. Insight
+    is kicking in.'
+  - 'Lily slowly steps back into the doorway.
+
+    
+
+    Whitman loses his balance
+    as Insight kicks in.'
+  - Hello, Officer. What can I do for you? Is it the neck? You look like you carry
+    stress in your neck. Maybe your jaw.
+  - This will be a lot easier if you don't play games with me, ok? I have some questions
+    for you.
+  - We're here to talk about you.
+  - No, thank you, I'm fine. I would like to hear about you, though.
+  - Me? What do you want to know?
+  - It's ok, Officer, you're just doing your job.
+  - Not here. Doing laundry.
+  - Yes, from one of my regular clients.
+  - Don't play dumb. What's going on in here?
+  - We've had some complaints about this place. Just
+  - Do you like working here?
+  - I assume you have a license or something?
+  - Of course he is. And I assume you have no idea when he'll be back, if ever?
+  - When will he be back?
+  - Miss. He's not here. It's safe to tell me the truth. Is he making you do this?
+  - Miss, this is clearly not a normal massage parlor! Tell me the truth.
+  - Is that normal?
+  - Very generous.
+  - It's a massage parlor. We give massages.
+  - That's all?
+  - Best job I ever had.
+  - Don't I look ok?
+  - What did you have in mind?
+  - You see anything wrong?
+  - Not really. So... your clients don't try to... take advantage of you?
+  - Your clients never ask for anything... extra? Nebver try to take advantage of
+    you?
+  - Take advantage? What is this? 1800s? No, no, nothing like that. This is a good
+    business.
+  - What do you do?
+  - Massages. Hard, soft, neck, back. Feet.
+  - That's all? Your clients never try to take advantage of you?
+  - Sorry, I have to ask.
+  - Officer, it might not look like it, but I have had a very hard life. I have nothing
+    to complain about here. And I have no reason to leave.
+  - License?
+  - For your work as a massage therapist... or whatever you call yourself.
+  - Oh, of course.
+  - I'd like to see it, please.
+  - I'm sorry, our manager keeps all those things.
+  - Go get your massage therapist's license right now, or I will have this place
+    shut down by end of day tomorrow.
+  - I have trouble believing that.
+  - Do you realize how improbable that sounds?
+  - I can't, they're all locked up in our manager's office at the back. To keep them
+    safe.
+  - To keep them safe? Or to keep you working here against your will?
+  - Is that not normal?
+  - Sorry, Officer, it's the way it is. Manager keeps them locked up in his office
+    for safety.
+  - It's your license. It belongs to you.
+  - What if you want to leave?
+  - Why would I want to leave?
+  - I don't need it. Anyway, I trust our him. We're very close. He takes good care
+    of me.
+  - Fine. Just get me your manager, then.
+  - Sorry. He is the manager, not me.
+  - He didn't tell me. Laundry can take a very long time.
+  - No one is making me do this! I like my job. They pay me well, I am safe, I have
+    a place to sleep. I don't need anybody to save me.
+  - That's enough, Jasmine. You can go.
+  - Those your things?
+  - I'm very good.
+  - I've only ever worked here.
+  - At least give me your manager's name.
+  - John? Johnny? Something like that.
+  - Last name?
+  - No last names here. Very friendly, very informal.
+  - You clearly have not had my massage.
+  - Have a lovely day, Officer.
+  - 
+  - Camera on door.
+  - 'Offscreen, before he enters, we hear Whitman call: "Lily?"'
+  - Whitman steps in, scanning the room.
+  - 
+  - Still on Lily's back. Again, camera is probably lower to the ground so that the
+    focus is on the extra shadow she is now casting.
+  - 'Lily does not turn. Still peering into the mirror paying Whitman absolutely
+    no attention.
+
+    
+
+    But now she''s casting that strange second shadow
+    again: crooked crown, ring of antique keys, coil of rope.'
+  - Lily is curled up on the bed scrolling on her phone, face lit up by whatever
+    app she's on. She looks up when Whitman enters and rolls her eyes, tossing the
+    phone aside.
+  - Lily is curled up on the bed scrolling on her phone, face lit up by whatever
+    app she's on. She looks up when Whitman enters and rolls her eyes, tossing the
+    phone aside.
+  - Where is everybody? It looks closed.
+  - Whitman steps a few feet into the room and looks around.
+  - We ARE closed. Thanks to you guys. What do you want now?
+  - Lily slides off the bed and crosses to the sink, where she checks her makeup
+    in the mirror, more out of boredom than anything else.
+  - Just a couple more questions.
+  - Haven't you already made our lives hard enough?
+  - Lily couldn't be less interested. Not engaging with Whitman at all.
+  - Lily's back is still to us. She peers closer into the mirror, inspecting her
+    lipstick or something on her cheek or whatever.
+  - I wanted to give you one more chance.
+  - I need your help, Lily.
+  - The room starts to tilt around Whitman.
+  - Whitman isn't scared this time. He knows exactly what's happening and he is determined
+    not to let it get the better of him this time. Using every ounce of concentration
+    and will to keep himself on his feet, forcing himself to focus.
+  - Whitman grabs the doorframe or something and holds himself up by sheer force
+    of will.
+  - Probably pushing in even closer and closer on Whitman's face as this moment unfolds...
+  - Probably the sound grows muddled along with the visuals. Voices from Lily's past?
+    As Whitman focuses, the sound starts to clear...
+  - Whitman grimaces, trying to listen to the shadow like Chen taught him.
+  - Whitman is holding onto the doorframe for dear life.
+  - Back on the shadow. Focus even closer on the shadow now if possible.
+  - '...and then the muddy sound snaps into focus and we hear the shadow''s line:
+
+    
+
+    "...they
+    will never take you back, not after what you have done. Madeline is dead. You
+    are Lily and you are mine."'
+  - It's Whitman, isn't it?
+  - Yes, Ma'am.
+  - Still a patrol officer, I see.
+  - Senior Patrol Officer.
+  - Yes, Ma'am.
+  - Not for much longer, Ma'am.
+  - And how old are you?
+  - Thirty-seven.
+  - Not everybody's cut out to be a cop, Whitman. No shame in doing something else.
+  - Understood, Ma'am.
+  - It's crossed my mind.
+  - With all due respect, Ma'am, I don't want to do something else.
+  - Stubborn AND can't follow orders. Great. Sounds like me.
+  - You'll never make Sergeant with that attitude, Whitman.
+  - Do you know why they put me in here?
+  - Before my time, Ma'am.
+  - 'Now you''re making ME feel old.
+
+    
+
+    I do what no one else wants to
+    do: human trafficking cases. It''s long, slow, thankless work, but I''m pathologically
+    incapable of making life easy for myself. So I here I sit, building RICO cases
+    under fluorescent lights.
+
+    
+
+    Pull up a chair. I''ll show you how these
+    computer programs help us catch dirtbags.'
   - McLoughlin
-  - '<align=left>Officer Mitchell McLoughlin</align>
-
-    <align=left></align>'
+  - Officer Mitchell McLoughlin
   - Whitman
-  - <align=left>Officer Ezekiel Whitman</align>
-  - Bamboo Moon
-  - Lotus Rain
+  - Officer Ezekiel Whitman
+  - Lily
+  - Jasmine
+  - Chen
   mLocalizedAudioAssetsKeys: []
   mLocalizedAudioAssetsValues: 
