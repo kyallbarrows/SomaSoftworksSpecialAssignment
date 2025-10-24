@@ -206,8 +206,8 @@ MonoBehaviour:
   _label: 
   _group: 0
   _id: 0
-  _onState: {fileID: 0}
-  _offState: {fileID: 0}
+  _onState: {fileID: 5873454489742143736}
+  _offState: {fileID: 899286930951935045}
 --- !u!114 &2564909812473038626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,7 +461,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 176.7319, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

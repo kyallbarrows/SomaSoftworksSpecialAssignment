@@ -37,6 +37,8 @@ namespace SpecialAssignment
                 _onState.SetActive(true);
                 _offState.SetActive(false);
             });
+
+            Deselect();
         }
 
         public void Deselect()

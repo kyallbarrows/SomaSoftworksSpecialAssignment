@@ -130,8 +130,8 @@ MonoBehaviour:
   _label: 
   _group: 0
   _id: 0
-  _onState: {fileID: 0}
-  _offState: {fileID: 0}
+  _onState: {fileID: 5873454489742143736}
+  _offState: {fileID: 899286930951935045}
 --- !u!114 &2564909812473038626
 MonoBehaviour:
   m_ObjectHideFlags: 0
