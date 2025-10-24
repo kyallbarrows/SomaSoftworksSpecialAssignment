@@ -1,11 +1,13 @@
+using System.Collections;
 using System.Collections.Generic;
 using Articy.Unity;
 using Articy.Unity.Interfaces;
 using Articy.Unity.Utils;
+using DarkTonic.MasterAudio;
+using SpecialAssignment;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEditor;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
@@ -46,17 +48,21 @@ namespace AltEnding
 
         private AsyncOperationHandle<IList<IResourceLocation>> loadDPPLocationsHandle;
         private AsyncOperationHandle<DialogPortraitPackage> loadDPPHandle;
+        
+        private static Dictionary<string, CharacterReferences> characterReferences = new();
 
         private void OnEnable()
         {
 			ArticyFlowController.NewFlowObject += ArticyFlowController_NewFlowObject;
 			ArticyFlowController.NewChoices += ArticyFlowController_NewChoices;
+            ArticyFlowController.SpecialActionObjectReached += OnSpecialAction;
 		}
 
 		private void OnDisable()
 		{
 			ArticyFlowController.NewFlowObject -= ArticyFlowController_NewFlowObject;
 			ArticyFlowController.NewChoices -= ArticyFlowController_NewChoices;
+            ArticyFlowController.SpecialActionObjectReached -= OnSpecialAction;
 		}
 
         private void ArticyFlowController_NewFlowObject(IFlowObject aObject)
@@ -136,6 +142,35 @@ namespace AltEnding
 				branchBtn.AssignBranch(branch);
 			}
 		}
+
+        private void OnSpecialAction(string fullAction)
+        {
+            var actionParts = fullAction.Split('|');
+            if (actionParts.Length < 8 || !actionParts[0].Equals("Scene"))
+                return;
+            
+            string scene = actionParts[1];
+            string cameraAngle = actionParts[3];
+            string speaker = actionParts[5];
+            string line = actionParts[7];
+
+            string assetId = $"{scene}_{cameraAngle}_{speaker}_{line}";
+            Debug.Log($"[Dialogue] Using assetId: {assetId}");
+
+            if (!characterReferences.ContainsKey(speaker))
+            {
+                Debug.LogWarning($"[Dialogue] Speaker {speaker} is not in characterReferences");
+                return;
+            }
+            
+            MasterAudio.PlaySound3DAtTransform(assetId, characterReferences[speaker].audioTransform);
+            characterReferences[speaker].animator.CrossFade(assetId, 0.2f);
+        }
+
+        public static void AddCharacterReferences(CharacterReferences characterReference)
+        {
+            characterReferences.Add(characterReference.characterName, characterReference);
+        }
 
 		// Used to initialize our debug flow player handler.
 		private void Start()
