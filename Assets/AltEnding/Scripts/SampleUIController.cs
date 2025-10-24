@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using Articy.Unity;
 using Articy.Unity.Interfaces;
@@ -45,11 +44,16 @@ namespace AltEnding
 
 		[Header("Options"), Tooltip("You can set this to true to see false branches in red, very helpful for debugging.")]
 		public bool showFalseBranches = false;
+        
+        [Header("Other References")]
+        public DirectorReferences directors;
 
         private AsyncOperationHandle<IList<IResourceLocation>> loadDPPLocationsHandle;
         private AsyncOperationHandle<DialogPortraitPackage> loadDPPHandle;
         
         private static Dictionary<string, CharacterReferences> characterReferences = new();
+
+        private const string TEMP_TIMELINE_TRIGGER_LINE = "002_B";
 
         private void OnEnable()
         {
@@ -157,6 +161,18 @@ namespace AltEnding
             string assetId = $"{scene}_{cameraAngle}_{speaker}_{line}";
             Debug.Log($"[Dialogue] Using assetId: {assetId}");
 
+            // TODO: Switch this check out for checking for "Timeline" camera type when it exists
+            if (line.Equals(TEMP_TIMELINE_TRIGGER_LINE))
+            {
+                var director = directors.GetDirector(assetId);
+                if (director != null)
+                    director.Play();
+                else
+                    Debug.LogWarning($"[Dialogue] Couldn't find playable director for assetId: {assetId}");
+                
+                return;
+            }
+            
             if (!characterReferences.ContainsKey(speaker))
             {
                 Debug.LogWarning($"[Dialogue] Speaker {speaker} is not in characterReferences");
