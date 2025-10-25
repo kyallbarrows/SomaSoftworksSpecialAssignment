@@ -1,4 +1,5 @@
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,7 +16,9 @@ namespace SpecialAssignment
         [SerializeField] private Image _avatarFuzzyImage;
         [SerializeField] private Image _unidentifiedImageEmpty;
         [SerializeField] private Image _unidentifiedImageFilled;
-
+        [SerializeField] private string _angleName;
+        [SerializeField] private TextMeshProUGUI _angleText;
+        [SerializeField] private TextMeshProUGUI _percentageText;
         
         private float _progress = 0f;
         // top and bottom of unidentified image are border, so cut off this much of the image from the fill effect
@@ -33,18 +36,33 @@ namespace SpecialAssignment
 
             _avatarCompleteImage.enabled = false;
             _avatarFuzzyImage.enabled = false;
+            
+            _angleText.text = _angleName;
+            SetPercentage(0);
+        }
+
+        private void SetPercentage(float ratio)
+        {
+            _percentageText.text = $"PROGRESS: {(int)(ratio * 100)}%";
         }
 
         public void ShowProgress(float newProgressAmount = 0)
         {
+            var displayProgress = _progress;
             var oldProgress = _progress;
             _progress = Mathf.Min(1f, _progress + newProgressAmount);
             
             var fillGoal = Mathf.Lerp(_fillMin, _fillMax, _progress);
+            var fillDuration = _unidentifiedImageTotalFillSeconds * newProgressAmount;
+            
+            DOTween.To(() => displayProgress, x => displayProgress = x, 
+                _progress, fillDuration)
+                .OnUpdate(() => SetPercentage(displayProgress));
+            
             DOTween.To(
                     () => _unidentifiedImageFilled.fillAmount,
                     fill => _unidentifiedImageFilled.fillAmount = fill,
-                    fillGoal, _unidentifiedImageTotalFillSeconds * newProgressAmount)
+                    fillGoal, fillDuration)
                 .OnComplete(() =>
                 {
                     if (_progress >= 1f)
