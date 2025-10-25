@@ -17,6 +17,7 @@ namespace SpecialAssignment
         [SerializeField] private string _label;
         [SerializeField] private int _group;
         [SerializeField] private int _id;
+        public int Id => _id;
         [SerializeField] private GameObject _onState;
         [SerializeField] private GameObject _offState;
         private Button _button;

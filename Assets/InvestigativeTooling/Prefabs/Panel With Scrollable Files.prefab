@@ -581,6 +581,7 @@ GameObject:
   - component: {fileID: 2344493125683958023}
   - component: {fileID: 2988998229825054253}
   - component: {fileID: 5808993335484970836}
+  - component: {fileID: 7741505844676969903}
   m_Layer: 5
   m_Name: Panel With Scrollable Files
   m_TagString: Untagged
@@ -647,3 +648,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1.8
+--- !u!114 &7741505844676969903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6219515191991323620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e0f4690e234e5fa644e053449be7aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _groupId: 0
