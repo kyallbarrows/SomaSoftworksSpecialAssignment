@@ -76,9 +76,13 @@ namespace AltEnding
         public override string GetSpecialActionType(IFlowObject flowObject)
         {
             string actionType = string.Empty;
-            
-            // If we want to include something like this, it could be cool. This can allow us to
-            // trigger various things in the game.
+
+            if (flowObject is IObjectWithFeatureCinematic_Dialogue_Features objectWithFeature)
+            {
+                var feature = objectWithFeature.GetFeatureCinematic_Dialogue_Features();
+                var cameraAngle = feature.Camera_Angle_01;
+                return $"CameraAngle|{cameraAngle}";
+            }
             
             return actionType;
         }

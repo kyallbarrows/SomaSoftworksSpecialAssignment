@@ -75,6 +75,24 @@ namespace Articy.Special_Assignment
     
     
     [Serializable()]
+    public class ArticyValueCamera_Angle_02 : ArticyValue<Camera_Angle_02>
+    {
+    }
+}
+namespace Articy.Special_Assignment
+{
+    
+    
+    [Serializable()]
+    public class ArticyValueCamera_Angle_01 : ArticyValue<Camera_Angle_01>
+    {
+    }
+}
+namespace Articy.Special_Assignment
+{
+    
+    
+    [Serializable()]
     public class ArticyValueShapeType : ArticyValue<ShapeType>
     {
     }
@@ -148,6 +166,33 @@ namespace Articy.Special_Assignment
     
     [Serializable()]
     public class ArticyValueDialogueFragment : ArticyValue<DialogueFragment>
+    {
+    }
+}
+namespace Articy.Special_Assignment
+{
+    
+    
+    [Serializable()]
+    public class ArticyValueCinematic_Dialogue_TemplateTemplate : ArticyValue<Articy.Special_Assignment.Templates.Cinematic_Dialogue_TemplateTemplate>
+    {
+    }
+}
+namespace Articy.Special_Assignment
+{
+    
+    
+    [Serializable()]
+    public class ArticyValueCinematic_Dialogue_FeaturesFeature : ArticyValue<Articy.Special_Assignment.Features.Cinematic_Dialogue_FeaturesFeature>
+    {
+    }
+}
+namespace Articy.Special_Assignment
+{
+    
+    
+    [Serializable()]
+    public class ArticyValueCinematic_Dialogue_Template : ArticyValue<Cinematic_Dialogue_Template>
     {
     }
 }
