@@ -47,13 +47,11 @@ namespace AltEnding
         
         [Header("Other References")]
         public DirectorReferences directors;
+        
+        private DialogueMediaPlayer dialogueMediaPlayer;
 
         private AsyncOperationHandle<IList<IResourceLocation>> loadDPPLocationsHandle;
         private AsyncOperationHandle<DialogPortraitPackage> loadDPPHandle;
-        
-        private static Dictionary<string, CharacterReferences> characterReferences = new();
-
-        private const string TEMP_TIMELINE_TRIGGER_LINE = "002_B";
 
         private void OnEnable()
         {
@@ -161,31 +159,7 @@ namespace AltEnding
             string assetId = $"{scene}_{cameraAngle}_{speaker}_{line}";
             Debug.Log($"[Dialogue] Using assetId: {assetId}");
 
-            // TODO: Switch this check out for checking for "Timeline" camera type when it exists
-            if (line.Equals(TEMP_TIMELINE_TRIGGER_LINE))
-            {
-                var director = directors.GetDirector(assetId);
-                if (director != null)
-                    director.Play();
-                else
-                    Debug.LogWarning($"[Dialogue] Couldn't find playable director for assetId: {assetId}");
-                
-                return;
-            }
-            
-            if (!characterReferences.ContainsKey(speaker))
-            {
-                Debug.LogWarning($"[Dialogue] Speaker {speaker} is not in characterReferences");
-                return;
-            }
-            
-            MasterAudio.PlaySound3DAtTransform(assetId, characterReferences[speaker].audioTransform);
-            characterReferences[speaker].animator.CrossFade(assetId, 0.2f);
-        }
-
-        public static void AddCharacterReferences(CharacterReferences characterReference)
-        {
-            characterReferences.Add(characterReference.characterName, characterReference);
+            dialogueMediaPlayer.Play(assetId, speaker, line);
         }
 
 		// Used to initialize our debug flow player handler.
@@ -193,7 +167,8 @@ namespace AltEnding
 		{
 			// By clearing at start we can safely have a prefab instantiated in the editor for our convenience and automatically get rid of it when we play.
 			ClearAllBranches();
-		}
+            dialogueMediaPlayer = new(directors);
+        }
 
 		// Convenience method to clear everything underneath our branch layout panel, this should only be our dynamically created branch buttons.
 		private void ClearAllBranches()

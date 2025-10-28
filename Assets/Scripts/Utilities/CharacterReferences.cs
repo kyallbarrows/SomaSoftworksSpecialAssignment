@@ -8,10 +8,11 @@ namespace SpecialAssignment
         public string characterName;
         public Transform audioTransform;
         public Animator animator;
+        public string idleName;
 
         private void Awake()
         {
-            SampleUIController.AddCharacterReferences(this);
+            DialogueMediaPlayer.AddCharacterReferences(this);
         }
     }
 }
