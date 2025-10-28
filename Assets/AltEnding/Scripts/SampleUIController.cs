@@ -2,10 +2,11 @@ using System.Collections.Generic;
 using Articy.Unity;
 using Articy.Unity.Interfaces;
 using Articy.Unity.Utils;
+using DarkTonic.MasterAudio;
+using SpecialAssignment;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEditor;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceLocations;
@@ -43,6 +44,11 @@ namespace AltEnding
 
 		[Header("Options"), Tooltip("You can set this to true to see false branches in red, very helpful for debugging.")]
 		public bool showFalseBranches = false;
+        
+        [Header("Other References")]
+        public DirectorReferences directors;
+        
+        private DialogueMediaPlayer dialogueMediaPlayer;
 
         private AsyncOperationHandle<IList<IResourceLocation>> loadDPPLocationsHandle;
         private AsyncOperationHandle<DialogPortraitPackage> loadDPPHandle;
@@ -51,12 +57,14 @@ namespace AltEnding
         {
 			ArticyFlowController.NewFlowObject += ArticyFlowController_NewFlowObject;
 			ArticyFlowController.NewChoices += ArticyFlowController_NewChoices;
+            ArticyFlowController.SpecialActionObjectReached += OnSpecialAction;
 		}
 
 		private void OnDisable()
 		{
 			ArticyFlowController.NewFlowObject -= ArticyFlowController_NewFlowObject;
 			ArticyFlowController.NewChoices -= ArticyFlowController_NewChoices;
+            ArticyFlowController.SpecialActionObjectReached -= OnSpecialAction;
 		}
 
         private void ArticyFlowController_NewFlowObject(IFlowObject aObject)
@@ -137,12 +145,30 @@ namespace AltEnding
 			}
 		}
 
+        private void OnSpecialAction(string fullAction)
+        {
+            var actionParts = fullAction.Split('|');
+            if (actionParts.Length < 8 || !actionParts[0].Equals("Scene"))
+                return;
+            
+            string scene = actionParts[1];
+            string cameraAngle = actionParts[3];
+            string speaker = actionParts[5];
+            string line = actionParts[7];
+
+            string assetId = $"{scene}_{cameraAngle}_{speaker}_{line}";
+            Debug.Log($"[Dialogue] Using assetId: {assetId}");
+
+            dialogueMediaPlayer.Play(assetId, speaker, line);
+        }
+
 		// Used to initialize our debug flow player handler.
 		private void Start()
 		{
 			// By clearing at start we can safely have a prefab instantiated in the editor for our convenience and automatically get rid of it when we play.
 			ClearAllBranches();
-		}
+            dialogueMediaPlayer = new(directors);
+        }
 
 		// Convenience method to clear everything underneath our branch layout panel, this should only be our dynamically created branch buttons.
 		private void ClearAllBranches()
