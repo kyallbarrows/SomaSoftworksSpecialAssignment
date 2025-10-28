@@ -65,10 +65,10 @@ namespace SpecialAssignment
         private void OnSpecialAction(string fullAction)
         {
             var actionParts = fullAction.Split('|');
-            if (!actionParts[0].Equals("CameraAngle"))
+            if (actionParts.Length < 8 || !actionParts[2].Equals("CameraAngle"))
                 return;
             
-            var action = Enum.Parse<Camera_Angle_01>(actionParts[1]);
+            var action = Enum.Parse<Camera_Angle_01>(actionParts[3]);
             int cameraIndex = action switch
             {
                 Camera_Angle_01.MC_CU => WhitmanCamerIndex,

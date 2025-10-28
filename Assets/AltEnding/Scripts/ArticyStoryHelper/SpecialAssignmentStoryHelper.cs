@@ -81,11 +81,15 @@ namespace AltEnding
             if (flowObject is IObjectWithFeatureCinematic_Dialogue_Features objectWithFeature)
             {
                 var feature = objectWithFeature.GetFeatureCinematic_Dialogue_Features();
-                var cameraAngle = feature.Camera_Angle_01;
-                var dialogue = flowObject as DialogueFragment;
-                var entity = dialogue?.Speaker as Entity;
-                string assetId = $"{feature.SceneValue}_{cameraAngle}_{entity?.DisplayName}_{feature.LineValue}";
-                return $"CameraAngle|{cameraAngle}|AssetID|{assetId}";
+                DialogueFragment dialogue = flowObject as DialogueFragment;
+                Entity entity = dialogue?.Speaker as Entity;
+
+                string scene = feature.SceneValue;
+                string cameraAngle = feature.Camera_Angle_01.ToString();
+                string speaker = entity?.DisplayName ?? string.Empty;
+                string line = feature.LineValue;
+                
+                return $"Scene|{scene}|CameraAngle|{cameraAngle}|Speaker|{speaker}|Line|{line}";
             }
             
             return actionType;
