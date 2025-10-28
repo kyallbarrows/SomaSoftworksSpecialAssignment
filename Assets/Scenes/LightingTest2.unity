@@ -9570,8 +9570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83cf99f1fbe36a64cb31aca1c0048075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 1075990178}
-  target: {fileID: 553883707}
+  source: {fileID: 553883707}
+  target: {fileID: 1075990178}
   lookSpeed: 5
   enableLookAt: 1
 --- !u!1 &2101527133
