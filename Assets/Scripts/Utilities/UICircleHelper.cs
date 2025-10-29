@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,13 +17,6 @@ namespace SpecialAssignment
         [Range(0f, 1f)]
         public float circleXOffset;
         public List<RectTransform> circleObjects = new();
-
-        private RectTransform myTransform;
-        
-        private void OnEnable()
-        {
-            myTransform = GetComponent<RectTransform>();
-        }
         
         private void Update()
         {
@@ -39,7 +31,10 @@ namespace SpecialAssignment
             for (int i = 0; i < circleObjects.Count; i++)
             {
                 var angle = 2 * Mathf.PI * i / circleObjects.Count;
-                circleObjects[i].localPosition = new Vector3(radius * Mathf.Cos(angle + circleRotation) + adjustedXOffset, radius * Mathf.Sin(angle + circleRotation), 0f);
+                circleObjects[i].localPosition = new Vector3(
+                    radius * Mathf.Cos(angle + circleRotation) + adjustedXOffset,
+                    radius * Mathf.Sin(angle + circleRotation),
+                    0f);
                 circleObjects[i].sizeDelta = new Vector2(childSizeX * maxDiameter, childSizeY * maxDiameter);
                 circleObjects[i].localEulerAngles = new Vector3(0, 0, Mathf.Rad2Deg * (angle + circleRotation - Mathf.PI));
             }
