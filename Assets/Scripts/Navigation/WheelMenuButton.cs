@@ -28,6 +28,8 @@ namespace SpecialAssignment
         public Color disabledOutlineColor;
         public Color disabledTextColor;
 
+        public Color pressedColor;
+
         public UnityEvent OnClick;
 
         private bool selected;
@@ -70,6 +72,7 @@ namespace SpecialAssignment
             if (!buttonEnabled)
                 return;
             
+            mainColorImage.color = pressedColor;
             OnClick?.Invoke();
         }
 
