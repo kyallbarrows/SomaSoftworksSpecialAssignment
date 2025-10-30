@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Articy.Unity.Utils;
 using DarkTonic.MasterAudio;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -63,11 +61,10 @@ namespace SpecialAssignment
             
             // Handle animator change
             Animator speakerAnimator = characterReferences[speaker].animator;
-            AnimatorController animatorController = speakerAnimator.runtimeAnimatorController as AnimatorController;
-            AnimatorControllerLayer mainLayer = animatorController?.layers[0];
+            var animationID = Animator.StringToHash($"Base Layer.{assetId}");
             
             bool lastSpeakerExists = !lastSpeaker.IsNullOrWhiteSpace() && characterReferences.ContainsKey(lastSpeaker);
-            bool hasAnimation = mainLayer?.stateMachine.states.Any(x => assetId.Equals(x.state.name)) ?? false;
+            bool hasAnimation = speakerAnimator.HasState(0, animationID);
             bool speakersAreDifferent = !speaker.Equals(lastSpeaker);
 
             if (lastSpeakerExists && speakersAreDifferent)
