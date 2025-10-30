@@ -4,9 +4,10 @@ using UnityEngine.EventSystems;
 
 namespace SpecialAssignment
 {
-    public class WheelMenu : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerDownHandler
+    public class WheelMenu : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerDownHandler, IPointerClickHandler
     {
         public float spinMultiplier = 0.4f;
+        public float firstButtonRotationOffset = 0.5f;
         public AnimationCurve buttonMagnetCurve;
         public List<WheelMenuButton> buttons;
         
@@ -16,6 +17,7 @@ namespace SpecialAssignment
         private float startY;
         private float startRotation;
         private float yDelta;
+        private Vector2 pointerDownPosition;
         
         private bool movingToNearestButton;
         private float targetRotation;
@@ -52,8 +54,15 @@ namespace SpecialAssignment
         
         public void OnPointerDown(PointerEventData eventData)
         {
+            pointerDownPosition = eventData.position;
             movingToNearestButton = false;
             moveToButtonProgress = 0f;
+        }
+        
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            if (eventData.position == pointerDownPosition && currentButton != null)
+                currentButton.Select();
         }
 
         public void Update()
@@ -64,16 +73,27 @@ namespace SpecialAssignment
                 var t = buttonMagnetCurve.Evaluate(moveToButtonProgress);
                 circleHelper.rotation = Mathf.Lerp(startRotation, targetRotation, t);
                 if (moveToButtonProgress >= 1f)
+                {
                     movingToNearestButton = false;
+                    var buttonIndex = GetClosestButtonIndexToRotation();
+                    SetButton(buttonIndex);
+                }
             }
         }
 
         private void SetButton(int index)
         {
             if (index >= buttons.Count || index < 0)
+            {
+                if (currentButton != null)
+                    currentButton.Unfocus();
                 currentButton = null;
+            }
             else
+            {
                 currentButton = buttons[index];
+                currentButton.Focus();
+            }
         }
 
         private float GetClosestButtonRotation()
@@ -86,6 +106,17 @@ namespace SpecialAssignment
                 return current - intervalRemainder;
             else
                 return current + (buttonInterval - intervalRemainder);
+        }
+
+        private int GetClosestButtonIndexToRotation()
+        {
+            var current = 1 - (circleHelper.rotation + 1 - firstButtonRotationOffset) % 1;
+            var numButtons = circleHelper.circleObjects.Count;
+            int buttonPosition = Mathf.RoundToInt(current * numButtons);
+            if (buttonPosition == numButtons)
+                return 0;
+
+            return buttonPosition;
         }
     }
 }

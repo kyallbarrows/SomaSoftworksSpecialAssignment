@@ -495,6 +495,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Play Button 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 726490343}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPlayPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SpecialAssignment.MainMenu, SpecialAssignment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2525,6 +2560,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gallery Button
       objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 726490343}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnGalleryPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SpecialAssignment.MainMenu, SpecialAssignment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2793,6 +2863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spinMultiplier: 0.4
+  firstButtonRotationOffset: 0.5
   buttonMagnetCurve:
     serializedVersion: 2
     m_Curve:
@@ -3621,6 +3692,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Gallery Button 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 726490343}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnGalleryPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SpecialAssignment.MainMenu, SpecialAssignment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4691,6 +4797,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Play Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 726490343}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnPlayPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SpecialAssignment.MainMenu, SpecialAssignment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9004823146319858550, guid: fa7860671ab42b840b532ba81d82e180,
+        type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
