@@ -56756,7 +56756,7 @@ MonoBehaviour:
           value:
             mValue: 'A long moment passes, then Lily reappears in the doorway.
 
-              
+
 
               Only
               this time she is casting two very different shadows towards you across
@@ -57238,10 +57238,10 @@ MonoBehaviour:
             mValue: 'You stare her down for a minute. She smiles back, but you can
               tell she''s growing tired of this.
 
-              
 
-              Another
-              woman appears at the door: Lily. A little older. A little more tired.'
+
+              Another woman appears
+              at the door: Lily. A little older. A little more tired.'
             mOwner:
               instanceId: 0
               referencingMode: 0
