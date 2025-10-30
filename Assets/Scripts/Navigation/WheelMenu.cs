@@ -62,7 +62,7 @@ namespace SpecialAssignment
         public void OnPointerClick(PointerEventData eventData)
         {
             if (eventData.position == pointerDownPosition && currentButton != null)
-                currentButton.Select();
+                currentButton.Activate();
         }
 
         public void Update()
@@ -86,13 +86,13 @@ namespace SpecialAssignment
             if (index >= buttons.Count || index < 0)
             {
                 if (currentButton != null)
-                    currentButton.Unfocus();
+                    currentButton.Unselect();
                 currentButton = null;
             }
             else
             {
                 currentButton = buttons[index];
-                currentButton.Focus();
+                currentButton.Select();
             }
         }
 

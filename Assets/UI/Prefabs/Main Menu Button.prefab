@@ -307,6 +307,56 @@ MonoBehaviour:
   outlineImage: {fileID: 9016377806597353025}
   mainColorImage: {fileID: 231398536712561684}
   buttonText: {fileID: 5779052301795027481}
+  buttonSelectedSize: 1.2
+  buttonSizeChangeSpeed: 4
+  buttonSizeSelectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  buttonSizeUnselectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   inactiveOutlineColor: {r: 0.047058824, g: 0.23137255, b: 0.40392157, a: 1}
   inactiveColor: {r: 0.047058824, g: 0.23137255, b: 0.40392157, a: 1}
   inactiveTextColor: {r: 0.22352941, g: 0.6117647, b: 0.8392157, a: 1}
