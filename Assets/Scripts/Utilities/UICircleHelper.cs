@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace SpecialAssignment
 {
-    [ExecuteInEditMode]
+    [ExecuteAlways]
     public class UICircleHelper : MonoBehaviour
     {
         [Range(0f, 1f)]
@@ -19,6 +19,11 @@ namespace SpecialAssignment
         public List<RectTransform> circleObjects = new();
         
         private void Update()
+        {
+            UpdateTransform();
+        }
+
+        private void UpdateTransform()
         {
             var parentWidth = Screen.width;
             var parentHeight = Screen.height;
