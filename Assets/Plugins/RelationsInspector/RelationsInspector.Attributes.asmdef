@@ -1,0 +1,16 @@
+{
+    "name": "RelationsInspector.Attributes",
+    "rootNamespace": "",
+    "references": [
+        "GUID:667114f767ce0fd4aa81b25b836798ab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
