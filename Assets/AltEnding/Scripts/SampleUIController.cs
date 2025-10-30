@@ -13,11 +13,6 @@ using UnityEngine.ResourceManagement.ResourceLocations;
 
 namespace AltEnding
 {
-	public class SpeakerChangedMessage
-	{
-		public string SpeakerName;
-	}
-
 	public class SampleUIController : MonoBehaviour
 	{
 		[Header("UI")]

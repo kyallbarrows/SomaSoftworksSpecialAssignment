@@ -10,5 +10,6 @@
         public float childSizeX;
         public float childSizeY;
         public float adjustedXOffset;
+        public float adjustedYOffset;
     }
 }

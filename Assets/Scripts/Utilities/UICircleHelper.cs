@@ -14,9 +14,12 @@ namespace SpecialAssignment
         public float diameterPercent;
         [Range(0f, 1f)]
         public float rotation;
-        [Range(0f, 1f)]
+        [Range(-1f, 1f)]
         public float circleXOffset;
+        [Range(-1f, 1f)]
+        public float circleYOffset;
         public List<UICircleHelperObject> circleObjects = new();
+        public RectTransform parentCanvas;
         
         private void Update()
         {
@@ -25,13 +28,14 @@ namespace SpecialAssignment
 
         private void UpdateTransform()
         {
-            var parentWidth = Screen.width;
-            var parentHeight = Screen.height;
+            var parentWidth = Screen.width / parentCanvas.localScale.x;
+            var parentHeight = Screen.height / parentCanvas.localScale.y;
             var maxDiameter = Mathf.Max(parentWidth, parentHeight);
             var diameter = diameterPercent * maxDiameter;
             var radius = diameter / 2f;
             var circleRotation = Mathf.PI * 2 * rotation;
             var adjustedXOffset = circleXOffset * parentWidth;
+            var adjustedYOffset = circleYOffset * parentHeight;
             
             for (int i = 0; i < circleObjects.Count; i++)
             {
@@ -45,6 +49,7 @@ namespace SpecialAssignment
                     childSizeX = childSizeX,
                     childSizeY = childSizeY,
                     adjustedXOffset = adjustedXOffset,
+                    adjustedYOffset = adjustedYOffset,
                 };
                 
                 circleObjects[i].SetTransformValues(data);

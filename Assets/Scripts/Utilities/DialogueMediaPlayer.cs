@@ -30,6 +30,17 @@ namespace SpecialAssignment
             characterReferences.Add(characterReference.characterName, characterReference);
         }
 
+        public bool IsPlaying()
+        {
+            if (lastPlayedType == MediaType.Audio)
+                return lastSound != null && lastSound.ActingVariation.IsPlaying;
+
+            if (lastPlayedType == MediaType.Timeline)
+                return lastTimeline != null && lastTimeline.state == PlayState.Playing;
+
+            return false;
+        }
+
         public void Play(string assetId, string speaker, string line)
         {
             StopPreviousMedia();
