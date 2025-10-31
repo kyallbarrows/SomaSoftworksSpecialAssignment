@@ -10,28 +10,67 @@ namespace SpecialAssignment
         public Transform dialogueContent;
         public DialogueTextUI leftDialogueTextPrefab;
         public DialogueTextUI rightDialogueTextPrefab;
-        public GameObject lastDialoguePanel;
+        public DialogueTextUI lastDialoguePanel;
         public GameObject dialogueOptionPanel;
         public List<DialogueOptionButton> dialogueOptionButtons;
+
+        private List<Branch> activeBranches = new();
+        private string lastSpeaker;
+        private string lastText;
+
+        private void Start()
+        {
+            var childCount = dialogueContent.childCount;
+            for (int i = childCount - 1; i >= 0; i--)
+            {
+                GameObject child = dialogueContent.GetChild(i).gameObject;
+                Destroy(child);
+            }
+        }
         
         public void ClearBranches()
         {
-            Debug.Log("[DialogueUIController] Clearing all branches");
+            activeBranches.Clear();
+            dialogueOptionPanel.SetActive(false);
+            lastDialoguePanel.gameObject.SetActive(false);
+            foreach(var button in dialogueOptionButtons)
+                button.Reset();
         }
 
         public void AddBranch(Branch branch)
         {
-            Debug.Log($"[DialogueUIController] Adding branch {branch.DefaultDescription}");
+            int branchIndex = activeBranches.Count;
+            if (branchIndex < dialogueOptionButtons.Count)
+            {
+                var button = dialogueOptionButtons[branchIndex];
+                button.SetText(branch.DefaultDescription);
+                button.SetBranch(branch);
+            }
+            
+            activeBranches.Add(branch);
+            if (activeBranches.Count > 1)
+            {
+                allDialoguePanel.SetActive(false);
+                lastDialoguePanel.gameObject.SetActive(true);
+                lastDialoguePanel.SetName(lastSpeaker);
+                lastDialoguePanel.SetText(lastText);
+                dialogueOptionPanel.SetActive(true);
+            }
         }
 
-        public void ChangeSpeaker(string speakerName)
+        public void UpdateDialogue(string speakerName, string dialogueText)
         {
-            Debug.Log($"[DialogueUIController] Changing speaker {speakerName}");
-        }
-
-        public void SetDialogueText(string dialogueText)
-        {
-            Debug.Log($"[DialogueUIController] Setting dialogue text {dialogueText}");
+            DialogueTextUI prefab = speakerName.Equals("Whitman")
+                ? leftDialogueTextPrefab
+                : rightDialogueTextPrefab;
+            
+            var dialogueInstance = Instantiate(prefab, dialogueContent);
+            dialogueInstance.transform.SetAsFirstSibling();
+            dialogueInstance.SetName(speakerName);
+            dialogueInstance.SetText(dialogueText);
+            
+            lastSpeaker = speakerName;
+            lastText = dialogueText;
         }
     }
 }

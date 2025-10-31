@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player Name
+  m_text: PLAYER NAME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3ec14d6110658449947daeb03307bb7, type: 2}
   m_sharedMaterial: {fileID: 2180209007115333145, guid: a3ec14d6110658449947daeb03307bb7,
@@ -339,9 +339,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  m_text: LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT, SED DO EIUSMOD
+    TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA. TINCIDUNT ETIAM ADIPISCING
+    PRAESENT METUS LEO ET CONSEQUAT.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a3ec14d6110658449947daeb03307bb7, type: 2}
   m_sharedMaterial: {fileID: 2180209007115333145, guid: a3ec14d6110658449947daeb03307bb7,

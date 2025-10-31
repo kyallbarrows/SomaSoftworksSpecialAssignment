@@ -1,4 +1,7 @@
-﻿using TMPro;
+﻿using System;
+using AltEnding;
+using Articy.Unity;
+using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -13,6 +16,7 @@ namespace SpecialAssignment
         
         private Image buttonImage;
         private bool active;
+        private Branch branch;
 
         private void Awake()
         {
@@ -34,6 +38,8 @@ namespace SpecialAssignment
             {
                 active = false;
                 buttonImage.sprite = inactiveSprite;
+                if (branch != null)
+                    ArticyFlowController.Instance.PlayBranch(branch);
             }
         }
 
@@ -49,6 +55,17 @@ namespace SpecialAssignment
         public void SetText(string newText)
         {
             buttonText.SetText(newText.ToUpper());
+        }
+
+        public void SetBranch(Branch branch)
+        {
+            this.branch = branch;
+        }
+
+        public void Reset()
+        {
+            branch = null;
+            buttonText.SetText(String.Empty);
         }
     }
 }

@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using AltEnding;
 using Articy.Unity;
 using Articy.Unity.Interfaces;
+using Articy.Unity.Utils;
 using UnityEngine;
 
 namespace SpecialAssignment
@@ -41,13 +42,15 @@ namespace SpecialAssignment
                 return;
             }
 
-            var speakerName = ArticyStoryHelper.Instance.GetDisplayNameFromObject(aObject);
-            dialogueUIController.ChangeSpeaker(speakerName);
-            
+            string speakerName = ArticyStoryHelper.Instance.GetDisplayNameFromObject(aObject);
+            string text;
             if (aObject is IObjectWithLocalizableText modelWithText)
-                dialogueUIController.SetDialogueText(modelWithText.Text.Value);
+                text = modelWithText.Text.Value;
             else
-                dialogueUIController.SetDialogueText(string.Empty);
+                text = string.Empty;
+            
+            if (!speakerName.IsNullOrWhiteSpace() && !text.IsNullOrWhiteSpace())
+                dialogueUIController.UpdateDialogue(speakerName, text);
         }
 
         private void ArticyFlowController_NewChoices(IList<Branch> branches)

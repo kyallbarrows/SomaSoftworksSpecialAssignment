@@ -155,18 +155,16 @@ namespace AltEnding
             {
                 PlayFirstBranch();
             }
-            else
-            {
-                NewFlowObject?.Invoke(aObject);
-                
-                if (aObject is IArticyObject articyObj)
-                {
-                    lastArticyObject = currentArticyObject;
-                    currentArticyObject = articyObj;
-                }
 
-                ConditionallySave();
+            NewFlowObject?.Invoke(aObject);
+
+            if (aObject is IArticyObject articyObj)
+            {
+                lastArticyObject = currentArticyObject;
+                currentArticyObject = articyObj;
             }
+
+            ConditionallySave();
         }
 
         private void ConditionallySave()
@@ -182,8 +180,6 @@ namespace AltEnding
             bool skipCurrentSave = false;
             if (!skipCurrentSave && SaveManager.Initialized)
                 SaveManager.Instance.SaveGame();
-            else
-                Debug.Log($"[AFC] Skip current save: {skipCurrentSave}");
         }
 
         protected void SendEvent(string aEvent)

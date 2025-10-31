@@ -76,7 +76,6 @@ namespace SpecialAssignment
                 _ => WideShotCameraIndex
             };
             ShowCamera(cameraIndex);
-            Debug.Log($"[CameraAngle] {action}");
         }
     }
 }
