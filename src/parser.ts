@@ -31,6 +31,8 @@ function isChapterData(value: any): value is ChapterData {
     typeof value.reference === 'string' &&
     typeof value.copyright === 'string' &&
     typeof value.verseCount === 'number' &&
+    value.verseCount >= 0 &&
+    Number.isInteger(value.verseCount) &&
     typeof value.content === 'string' &&
     (value.next === undefined || isChapterReference(value.next)) &&
     (value.previous === undefined || isChapterReference(value.previous))
