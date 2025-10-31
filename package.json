@@ -1,0 +1,19 @@
+{
+  "name": "bible-json-parser",
+  "version": "1.0.0",
+  "description": "TypeScript parser for Bible API JSON responses",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node src/example.ts"
+  },
+  "keywords": ["json", "parser", "typescript", "bible"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

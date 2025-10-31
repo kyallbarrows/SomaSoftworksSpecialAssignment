@@ -101,3 +101,9 @@ InitTestScene*.unity*
 /.idea
 /.vscode
 /__ASSETIMPORTING
+
+# Node.js / TypeScript
+node_modules/
+dist/
+*.tsbuildinfo
+package-lock.json
